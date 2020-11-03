@@ -56,18 +56,17 @@ class SmsSendHandler(BaseHandler):
                 fr = data.get('Fr', None)
                 to = data.get('To', None)
                 msg = data.get('Msg', None)
+                rtime = data.get('Rtime', None)
                 tgbot = telegram.Bot(configs["tgapitoken"])
                 groupid = configs["tggroupid"]
-                if fr is not None and to is not None and msg is not None:
-                    tgmsg = """发送号码: {}
-接收号码:{}
+                tgmsg = """发送号码: {}
+接收号码: {}
+接收时间: {}
 短信内容:
   {}
-                    """.format(fr, to, msg)
-                    tgbot.send_message(groupid, tgmsg)
-                    self.write(dict(code=0, msg='Messsage send success...'))
-                else:
-                    self.write(dict(code=3, msg='Access error'))
+""".format(fr, to, msg)
+                tgbot.send_message(groupid, tgmsg)
+                self.write(dict(code=0, msg='Messsage send success...'))
             except:
                 self.write(dict(code=2, msg='Access error'))
 
