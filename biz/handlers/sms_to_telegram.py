@@ -64,7 +64,7 @@ class SmsSendHandler(BaseHandler):
 接收时间: {}
 短信内容:
   {}
-""".format(fr, to, msg)
+""".format(fr, to, rtime, msg)
                 tgbot.send_message(groupid, tgmsg)
                 self.write(dict(code=0, msg='Messsage send success...'))
             except:
