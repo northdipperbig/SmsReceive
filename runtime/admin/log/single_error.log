@@ -1,8 +1,0 @@
-[2020-10-29 12:01:26][error] [0]Call to undefined function think\admin\service\imagecreatetruecolor()[/home/ChineseMan/ThinkAdmin/vendor/zoujingli/think-library/src/service/CaptchaService.php:146]
-[2020-10-29 13:09:28][error] [0]Call to undefined function think\admin\service\imagecreatetruecolor()[/home/ChineseMan/ThinkAdmin/vendor/zoujingli/think-library/src/service/CaptchaService.php:146]
-[2020-10-29 14:29:52][error] [-1]Class app\numbers\controller\Index does not exist[/home/ChineseMan/ThinkAdmin/vendor/zoujingli/think-library/src/service/NodeService.php:108]
-[2020-10-30 20:33:14][error] [0]Class 'app\admin\controller\api\Log' not found[/home/ChineseMan/ThinkAdmin/app/admin/controller/api/Upload.php:104]
-[2020-10-30 20:34:20][error] [8192]Non-static method think\Log::record() should not be called statically[/home/ChineseMan/ThinkAdmin/app/admin/controller/api/Upload.php:105]
-[2020-10-30 20:35:15][error] [8192]Non-static method think\Log::write() should not be called statically[/home/ChineseMan/ThinkAdmin/app/admin/controller/api/Upload.php:105]
-[2020-10-30 20:44:48][error] [0]Call to undefined method app\admin\controller\api\Upload::log()[/home/ChineseMan/ThinkAdmin/app/admin/controller/api/Upload.php:105]
-[2020-11-02 14:28:02][error] [10501]SQLSTATE[HY000] [2002] Connection refused[/home/ChineseMan/ThinkAdmin/vendor/topthink/think-orm/src/db/PDOConnection.php:768]
