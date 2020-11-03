@@ -1,0 +1,6 @@
+[2020-10-30 19:57:16][sql] CONNECT:[ UseTime:0.054272s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:57:16][sql] SHOW FULL COLUMNS FROM `system_config` [ RunTime:0.109077s ]
+[2020-10-30 19:57:16][sql] SELECT * FROM `system_config` [ RunTime:0.020132s ]
+[2020-10-30 20:47:32][sql] CONNECT:[ UseTime:0.056447s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 20:47:32][sql] SHOW FULL COLUMNS FROM `system_config` [ RunTime:0.041150s ]
+[2020-10-30 20:47:32][sql] SELECT * FROM `system_config` [ RunTime:0.017338s ]

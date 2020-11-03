@@ -1,0 +1,75 @@
+{extend name="../../admin/view/main"}
+
+{block name="button"}
+<!--{if auth("remove")}-->
+<button data-action='{:url("remove")}' data-csrf="{:systoken('remove')}" data-rule="id#{key}" class='layui-btn layui-btn-sm layui-btn-danger'>删除短信</button>
+<!--{/if}-->
+<!--{if auth("remove")}-->
+<button data-modal='{:url("clearall")}' data-csrf="{:systoken('clearall')}" class='layui-btn layui-btn-sm layui-btn-danger'>清空全部短信</button>
+<!--{/if}-->
+{/block}
+
+{block name="content"}
+<div class="think-box-shadow table-block">
+    <table class="layui-table margin-top-10" lay-skin="line">
+        {notempty name='list'}
+        <thead>
+        <tr>
+            <th class='list-table-check-td think-checkbox'>
+                <label><input data-auto-none data-check-target='.list-check-box' type='checkbox'></label>
+            </th>
+            <th class='text-left nowrap'>发送号码</th>
+            <th class='text-left nowrap'>接收号码</th>
+            <th class='text-left nowrap'>短信内容</th>
+            <th class='text-left nowrap'>接收时间</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        {foreach $list as $key=>$vo}
+        <tr>
+            <td class='list-table-check-td think-checkbox'>
+                <label><input class="list-check-box" value='{$vo.id}' type='checkbox'></label>
+            </td>
+            <td class="text-left nowrap">
+                <span class="font-w7">{$vo.send_number|default='-'}</span>
+            </td>
+            <td class="text-left nowrap">
+                <span class="font-w7">{$vo.reveice_number|default='-'}</span>
+            </td>
+            <td class="text-left nowrap">
+                <span class="font-w7">{$vo.reveice_message|default='-'}</span>
+            </td>
+            <td class="text-left nowrap">
+                <span class="font-w7">{$vo.reveice_time|default='-'}</span>
+            </td>
+            <td class='text-left nowrap'>
+                <!--{if auth("remove")}-->
+                <a class="layui-btn layui-btn-xs layui-btn-danger" data-confirm="确定要删除短信吗？" data-action="{:url('remove')}" data-value="id#{$vo.id}" data-csrf="{:systoken('remove')}">删 除</a>
+                <!--{/if}-->
+            </td>
+        </tr>
+        {/foreach}
+        </tbody>
+        {/notempty}
+    </table>
+    {empty name='list'}<span class="notdata color-red">还 没 有 收 到 任 何 短 信!</span>{else}{$pagehtml|raw|default=''}{/empty}
+</div>
+{/block}
+
+{block name='script'}
+<script>
+    (function (layers) {
+        $('body').off('click', '[data-tips-desc]').on('click', '[data-tips-desc]', function () {
+            return layers.push(layer.tips($(this).find('textarea').html(), this, {tips: 3, time: 0, maxWidth: 500})), false;
+        }).off('click', '.layui-body').on('click', '.layui-body', function () {
+            layers.forEach(function (value, index) {
+                layer.close(value), delete layers[index];
+            });
+        });
+        $(window).on('hashchange', function () {
+            $('.layui-body').trigger('click');
+        });
+    })([]);
+</script>
+{/block}

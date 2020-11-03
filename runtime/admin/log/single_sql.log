@@ -1,0 +1,1111 @@
+[2020-10-29 13:11:06][sql] CONNECT:[ UseTime:0.015372s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 13:11:06][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.031853s ]
+[2020-10-29 13:11:06][sql] SELECT * FROM `system_user` WHERE  `username` = 'admin'  AND `is_deleted` = 0 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.021701s ]
+[2020-10-29 13:11:06][sql] UPDATE `system_user`  SET `login_ip` = '127.0.0.1' , `login_at` = now() , `login_num` = login_num+1  WHERE  `id` = 10000 [ RunTime:0.043420s ]
+[2020-10-29 13:11:06][sql] SHOW FULL COLUMNS FROM `system_oplog` [ RunTime:0.002048s ]
+[2020-10-29 13:11:06][sql] INSERT INTO `system_oplog` SET `node` = 'admin/login/index' , `action` = '用户登录' , `content` = '登录系统后台成功' , `geoip` = '127.0.0.1' , `username` = 'admin' [ RunTime:0.007564s ]
+[2020-10-29 13:11:06][sql] CONNECT:[ UseTime:0.000411s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 13:11:06][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.002142s ]
+[2020-10-29 13:11:06][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.001495s ]
+[2020-10-29 13:11:06][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001081s ]
+[2020-10-29 13:11:06][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.002395s ]
+[2020-10-29 13:11:18][sql] CONNECT:[ UseTime:0.001976s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 13:11:18][sql] SELECT VERSION() [ RunTime:0.001889s ]
+[2020-10-29 13:15:32][sql] CONNECT:[ UseTime:0.000513s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 13:15:32][sql] SELECT VERSION() [ RunTime:0.001991s ]
+[2020-10-29 13:15:33][sql] CONNECT:[ UseTime:0.000377s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 13:15:33][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.002372s ]
+[2020-10-29 13:15:33][sql] SELECT status,count(1) count FROM `system_queue` GROUP BY `status` [ RunTime:0.016097s ]
+[2020-10-29 13:15:33][sql] SELECT COUNT(*) AS think_count FROM `system_queue` [ RunTime:0.000573s ]
+[2020-10-29 13:15:33][sql] SELECT * FROM `system_queue` ORDER BY `loops_time` DESC,`id` DESC LIMIT 0,20 [ RunTime:0.000412s ]
+[2020-10-29 13:22:44][sql] CONNECT:[ UseTime:0.001508s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 13:22:44][sql] SHOW FULL COLUMNS FROM `system_oplog` [ RunTime:0.002628s ]
+[2020-10-29 13:22:44][sql] SELECT COUNT(*) AS think_count FROM `system_oplog` [ RunTime:0.000579s ]
+[2020-10-29 13:22:44][sql] SELECT * FROM `system_oplog` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000412s ]
+[2020-10-29 13:22:45][sql] CONNECT:[ UseTime:0.001323s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 13:22:45][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001123s ]
+[2020-10-29 13:22:45][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.001106s ]
+[2020-10-29 14:33:47][sql] CONNECT:[ UseTime:0.120655s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:33:47][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.091061s ]
+[2020-10-29 14:33:47][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.040409s ]
+[2020-10-29 14:33:59][sql] CONNECT:[ UseTime:0.002354s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:33:59][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.015552s ]
+[2020-10-29 14:33:59][sql] SELECT * FROM `system_user` WHERE  `username` = 'admin'  AND `is_deleted` = 0 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.011616s ]
+[2020-10-29 14:33:59][sql] UPDATE `system_user`  SET `login_ip` = '127.0.0.1' , `login_at` = now() , `login_num` = login_num+1  WHERE  `id` = 10000 [ RunTime:0.027942s ]
+[2020-10-29 14:33:59][sql] SHOW FULL COLUMNS FROM `system_oplog` [ RunTime:0.011411s ]
+[2020-10-29 14:33:59][sql] INSERT INTO `system_oplog` SET `node` = 'admin/login/index' , `action` = '用户登录' , `content` = '登录系统后台成功' , `geoip` = '127.0.0.1' , `username` = 'admin' [ RunTime:0.006286s ]
+[2020-10-29 14:33:59][sql] CONNECT:[ UseTime:0.001040s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:33:59][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.003196s ]
+[2020-10-29 14:33:59][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.002254s ]
+[2020-10-29 14:33:59][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001034s ]
+[2020-10-29 14:33:59][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.002090s ]
+[2020-10-29 14:34:02][sql] CONNECT:[ UseTime:0.000997s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:34:02][sql] SELECT VERSION() [ RunTime:0.002326s ]
+[2020-10-29 14:34:04][sql] CONNECT:[ UseTime:0.000379s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:34:04][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002906s ]
+[2020-10-29 14:34:04][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.015538s ]
+[2020-10-29 14:34:15][sql] CONNECT:[ UseTime:0.000394s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:34:15][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002207s ]
+[2020-10-29 14:34:15][sql] UPDATE `system_menu`  SET `status` = 0  WHERE  `id` IN (56,57,58,59,60,61,62,63,64,65,66) [ RunTime:0.070529s ]
+[2020-10-29 14:34:17][sql] CONNECT:[ UseTime:0.001042s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:34:17][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.003033s ]
+[2020-10-29 14:34:17][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.001862s ]
+[2020-10-29 14:34:24][sql] CONNECT:[ UseTime:0.000410s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:34:24][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001135s ]
+[2020-10-29 14:34:24][sql] SELECT * FROM `system_menu` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.002685s ]
+[2020-10-29 14:34:24][sql] SELECT `id`,`id`,`pid`,`icon`,`url`,`node`,`title`,`params` FROM `system_menu` ORDER BY `sort` DESC,`id` ASC [ RunTime:0.002472s ]
+[2020-10-29 14:34:32][sql] CONNECT:[ UseTime:0.000483s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:34:32][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001703s ]
+[2020-10-29 14:34:32][sql] UPDATE `system_menu`  SET `status` = 0  WHERE  `id` = 27 [ RunTime:0.003594s ]
+[2020-10-29 14:34:35][sql] CONNECT:[ UseTime:0.001531s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:34:35][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002228s ]
+[2020-10-29 14:34:35][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.002735s ]
+[2020-10-29 14:34:38][sql] CONNECT:[ UseTime:0.000442s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:34:38][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001030s ]
+[2020-10-29 14:34:38][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.003428s ]
+[2020-10-29 14:34:38][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001661s ]
+[2020-10-29 14:34:38][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.002364s ]
+[2020-10-29 14:34:39][sql] CONNECT:[ UseTime:0.001364s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:34:39][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001929s ]
+[2020-10-29 14:34:39][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.000638s ]
+[2020-10-29 14:34:43][sql] CONNECT:[ UseTime:0.002044s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:34:43][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.004590s ]
+[2020-10-29 14:34:43][sql] SELECT `id`,`id`,`pid`,`icon`,`url`,`node`,`title`,`params` FROM `system_menu` ORDER BY `sort` DESC,`id` ASC [ RunTime:0.007804s ]
+[2020-10-29 14:36:05][sql] CONNECT:[ UseTime:0.002682s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:36:05][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002880s ]
+[2020-10-29 14:36:05][sql] SELECT * FROM `system_menu` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.002465s ]
+[2020-10-29 14:36:05][sql] INSERT INTO `system_menu` SET `pid` = 0 , `title` = '过滤号码' , `url` = '#' , `params` = '' , `node` = '' , `icon` = '' [ RunTime:0.001773s ]
+[2020-10-29 14:36:08][sql] CONNECT:[ UseTime:0.002453s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:36:08][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001074s ]
+[2020-10-29 14:36:08][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.002025s ]
+[2020-10-29 14:36:08][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001691s ]
+[2020-10-29 14:36:08][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.000843s ]
+[2020-10-29 14:36:09][sql] CONNECT:[ UseTime:0.002488s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:36:09][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.000987s ]
+[2020-10-29 14:36:09][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.001841s ]
+[2020-10-29 14:36:18][sql] CONNECT:[ UseTime:0.002259s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:36:18][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.003613s ]
+[2020-10-29 14:36:18][sql] UPDATE `system_menu`  SET `sort` = 99999  WHERE  `id` = 67 [ RunTime:0.003485s ]
+[2020-10-29 14:36:22][sql] CONNECT:[ UseTime:0.000560s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:36:22][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001728s ]
+[2020-10-29 14:36:22][sql] UPDATE `system_menu`  SET `sort` = 1  WHERE  `id` = 5 [ RunTime:0.000743s ]
+[2020-10-29 14:36:25][sql] CONNECT:[ UseTime:0.002590s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:36:25][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.003247s ]
+[2020-10-29 14:36:25][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.000559s ]
+[2020-10-29 14:36:29][sql] CONNECT:[ UseTime:0.001399s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:36:29][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001873s ]
+[2020-10-29 14:36:29][sql] SELECT `id`,`id`,`pid`,`icon`,`url`,`node`,`title`,`params` FROM `system_menu` ORDER BY `sort` DESC,`id` ASC [ RunTime:0.000577s ]
+[2020-10-29 14:37:45][sql] CONNECT:[ UseTime:0.000459s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:37:45][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.005049s ]
+[2020-10-29 14:37:45][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.001449s ]
+[2020-10-29 14:37:46][sql] CONNECT:[ UseTime:0.000442s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:37:46][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001234s ]
+[2020-10-29 14:37:46][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.001158s ]
+[2020-10-29 14:37:46][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.003681s ]
+[2020-10-29 14:37:46][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.001325s ]
+[2020-10-29 14:37:46][sql] CONNECT:[ UseTime:0.002694s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:37:46][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001151s ]
+[2020-10-29 14:37:46][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.001201s ]
+[2020-10-29 14:37:49][sql] CONNECT:[ UseTime:0.001666s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:37:49][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002801s ]
+[2020-10-29 14:37:49][sql] SELECT `id`,`id`,`pid`,`icon`,`url`,`node`,`title`,`params` FROM `system_menu` ORDER BY `sort` DESC,`id` ASC [ RunTime:0.001228s ]
+[2020-10-29 14:38:22][sql] CONNECT:[ UseTime:0.000479s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:38:22][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001556s ]
+[2020-10-29 14:38:22][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.001796s ]
+[2020-10-29 14:38:22][sql] CONNECT:[ UseTime:0.002404s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:38:22][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002153s ]
+[2020-10-29 14:38:22][sql] SELECT `id`,`id`,`pid`,`icon`,`url`,`node`,`title`,`params` FROM `system_menu` ORDER BY `sort` DESC,`id` ASC [ RunTime:0.001372s ]
+[2020-10-29 14:38:51][sql] CONNECT:[ UseTime:0.001236s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:38:51][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001248s ]
+[2020-10-29 14:38:51][sql] SELECT * FROM `system_menu` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.001099s ]
+[2020-10-29 14:38:51][sql] INSERT INTO `system_menu` SET `pid` = 67 , `title` = '号码列表' , `url` = 'numbers/index' , `params` = '' , `node` = 'numbers/index' , `icon` = 'fa fa-phone' [ RunTime:0.007724s ]
+[2020-10-29 14:38:53][sql] CONNECT:[ UseTime:0.001917s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:38:53][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001530s ]
+[2020-10-29 14:38:53][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.003538s ]
+[2020-10-29 14:38:53][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001378s ]
+[2020-10-29 14:38:53][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.000715s ]
+[2020-10-29 14:38:54][sql] CONNECT:[ UseTime:0.000727s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:38:54][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001905s ]
+[2020-10-29 14:38:54][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.000796s ]
+[2020-10-29 14:39:13][sql] CONNECT:[ UseTime:0.001653s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:39:13][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001009s ]
+[2020-10-29 14:39:13][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.001338s ]
+[2020-10-29 14:39:27][sql] CONNECT:[ UseTime:0.000446s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:39:27][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001093s ]
+[2020-10-29 14:39:27][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.000966s ]
+[2020-10-29 14:39:28][sql] CONNECT:[ UseTime:0.001720s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:39:28][sql] SELECT VERSION() [ RunTime:0.002218s ]
+[2020-10-29 14:41:40][sql] CONNECT:[ UseTime:0.001019s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:41:40][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001383s ]
+[2020-10-29 14:41:40][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.002211s ]
+[2020-10-29 14:41:40][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001086s ]
+[2020-10-29 14:41:40][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.001141s ]
+[2020-10-29 14:44:11][sql] CONNECT:[ UseTime:0.000838s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:44:11][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.003450s ]
+[2020-10-29 14:44:11][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.005050s ]
+[2020-10-29 14:44:11][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.003808s ]
+[2020-10-29 14:44:11][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.002526s ]
+[2020-10-29 14:44:22][sql] CONNECT:[ UseTime:0.001594s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:44:22][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.002215s ]
+[2020-10-29 14:44:22][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.002429s ]
+[2020-10-29 14:44:22][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001181s ]
+[2020-10-29 14:44:22][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.000794s ]
+[2020-10-29 14:44:53][sql] CONNECT:[ UseTime:0.024474s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:44:53][sql] SELECT VERSION() [ RunTime:0.023061s ]
+[2020-10-29 14:45:03][sql] CONNECT:[ UseTime:0.000812s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:45:03][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.032178s ]
+[2020-10-29 14:45:03][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.003708s ]
+[2020-10-29 14:46:58][sql] CONNECT:[ UseTime:0.000615s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:46:58][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.005932s ]
+[2020-10-29 14:46:58][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.000907s ]
+[2020-10-29 14:47:00][sql] CONNECT:[ UseTime:0.000413s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:47:00][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001737s ]
+[2020-10-29 14:47:00][sql] SELECT * FROM `system_menu` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.001564s ]
+[2020-10-29 14:47:00][sql] SELECT `id`,`id`,`pid`,`icon`,`url`,`node`,`title`,`params` FROM `system_menu` ORDER BY `sort` DESC,`id` ASC [ RunTime:0.003468s ]
+[2020-10-29 14:48:43][sql] CONNECT:[ UseTime:0.000528s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:48:43][sql] SELECT VERSION() [ RunTime:0.001437s ]
+[2020-10-29 14:48:44][sql] CONNECT:[ UseTime:0.000527s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:48:44][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.002664s ]
+[2020-10-29 14:48:44][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000686s ]
+[2020-10-29 14:48:44][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002540s ]
+[2020-10-29 14:48:44][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.003568s ]
+[2020-10-29 14:52:39][sql] CONNECT:[ UseTime:0.000516s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:52:39][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.005303s ]
+[2020-10-29 14:52:39][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000820s ]
+[2020-10-29 14:52:39][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001632s ]
+[2020-10-29 14:52:39][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.000670s ]
+[2020-10-29 14:52:39][sql] CONNECT:[ UseTime:0.000384s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:52:39][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001061s ]
+[2020-10-29 14:52:39][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000618s ]
+[2020-10-29 14:52:39][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.005689s ]
+[2020-10-29 14:52:39][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.001040s ]
+[2020-10-29 14:52:49][sql] CONNECT:[ UseTime:0.000384s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:52:49][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.002165s ]
+[2020-10-29 14:52:49][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.001855s ]
+[2020-10-29 14:52:49][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001064s ]
+[2020-10-29 14:52:49][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.000746s ]
+[2020-10-29 14:52:50][sql] CONNECT:[ UseTime:0.000649s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 14:52:50][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001766s ]
+[2020-10-29 14:52:50][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.002620s ]
+[2020-10-29 14:52:50][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001949s ]
+[2020-10-29 14:52:50][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.002761s ]
+[2020-10-29 15:04:37][sql] CONNECT:[ UseTime:0.065487s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:04:37][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.072434s ]
+[2020-10-29 15:04:37][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.027146s ]
+[2020-10-29 15:04:37][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.003304s ]
+[2020-10-29 15:04:37][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.021401s ]
+[2020-10-29 15:04:40][sql] CONNECT:[ UseTime:0.000882s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:04:40][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.003604s ]
+[2020-10-29 15:04:40][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.001581s ]
+[2020-10-29 15:04:40][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001059s ]
+[2020-10-29 15:04:40][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.001198s ]
+[2020-10-29 15:05:21][sql] CONNECT:[ UseTime:0.001014s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:05:21][sql] SELECT VERSION() [ RunTime:0.004793s ]
+[2020-10-29 15:05:23][sql] CONNECT:[ UseTime:0.000455s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:05:23][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.005628s ]
+[2020-10-29 15:05:23][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.004572s ]
+[2020-10-29 15:05:25][sql] CONNECT:[ UseTime:0.000422s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:05:25][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001979s ]
+[2020-10-29 15:05:25][sql] SELECT `id`,`id`,`pid`,`icon`,`url`,`node`,`title`,`params` FROM `system_menu` ORDER BY `sort` DESC,`id` ASC [ RunTime:0.001990s ]
+[2020-10-29 15:06:04][sql] CONNECT:[ UseTime:0.002957s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:06:04][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001160s ]
+[2020-10-29 15:06:04][sql] SELECT * FROM `system_menu` WHERE  `id` = 67 LIMIT 1 [ RunTime:0.017793s ]
+[2020-10-29 15:06:04][sql] SELECT `id`,`id`,`pid`,`icon`,`url`,`node`,`title`,`params` FROM `system_menu` ORDER BY `sort` DESC,`id` ASC [ RunTime:0.003106s ]
+[2020-10-29 15:06:07][sql] CONNECT:[ UseTime:0.000451s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:06:07][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.003559s ]
+[2020-10-29 15:06:07][sql] UPDATE `system_menu`  SET `sort` = 99999  WHERE  `id` = 67 [ RunTime:0.018879s ]
+[2020-10-29 15:06:11][sql] CONNECT:[ UseTime:0.002601s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:06:11][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.003028s ]
+[2020-10-29 15:06:11][sql] UPDATE `system_menu`  SET `sort` = 999  WHERE  `id` = 67 [ RunTime:0.041671s ]
+[2020-10-29 15:06:11][sql] CONNECT:[ UseTime:0.001722s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:06:11][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002149s ]
+[2020-10-29 15:06:11][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.002246s ]
+[2020-10-29 15:06:17][sql] CONNECT:[ UseTime:0.001520s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:06:17][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001356s ]
+[2020-10-29 15:06:17][sql] UPDATE `system_menu`  SET `status` = 1  WHERE  `id` IN (56,57,58,59,60,61,62,63,64,65,66) [ RunTime:0.040374s ]
+[2020-10-29 15:06:19][sql] CONNECT:[ UseTime:0.001208s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:06:19][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002473s ]
+[2020-10-29 15:06:19][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.001562s ]
+[2020-10-29 15:06:22][sql] CONNECT:[ UseTime:0.002319s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:06:22][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.003108s ]
+[2020-10-29 15:06:22][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000876s ]
+[2020-10-29 15:06:22][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001276s ]
+[2020-10-29 15:06:22][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.002897s ]
+[2020-10-29 15:06:23][sql] CONNECT:[ UseTime:0.004351s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:06:23][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.037395s ]
+[2020-10-29 15:06:23][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.000572s ]
+[2020-10-29 15:07:18][sql] CONNECT:[ UseTime:0.000441s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:07:18][sql] SELECT VERSION() [ RunTime:0.001044s ]
+[2020-10-29 15:07:22][sql] CONNECT:[ UseTime:0.002985s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:07:22][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001071s ]
+[2020-10-29 15:07:22][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.002035s ]
+[2020-10-29 15:07:42][sql] CONNECT:[ UseTime:0.002066s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:07:42][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001186s ]
+[2020-10-29 15:07:42][sql] SELECT * FROM `system_menu` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.002459s ]
+[2020-10-29 15:07:42][sql] SELECT `id`,`id`,`pid`,`icon`,`url`,`node`,`title`,`params` FROM `system_menu` ORDER BY `sort` DESC,`id` ASC [ RunTime:0.000880s ]
+[2020-10-29 15:07:49][sql] CONNECT:[ UseTime:0.000457s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:07:49][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001201s ]
+[2020-10-29 15:07:49][sql] SELECT * FROM `system_menu` WHERE  `id` = 61 LIMIT 1 [ RunTime:0.000557s ]
+[2020-10-29 15:07:49][sql] SELECT `id`,`id`,`pid`,`icon`,`url`,`node`,`title`,`params` FROM `system_menu` ORDER BY `sort` DESC,`id` ASC [ RunTime:0.002201s ]
+[2020-10-29 15:07:54][sql] CONNECT:[ UseTime:0.001836s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:07:54][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001945s ]
+[2020-10-29 15:07:54][sql] SELECT * FROM `system_menu` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000566s ]
+[2020-10-29 15:07:54][sql] SELECT `id`,`id`,`pid`,`icon`,`url`,`node`,`title`,`params` FROM `system_menu` ORDER BY `sort` DESC,`id` ASC [ RunTime:0.001936s ]
+[2020-10-29 15:07:59][sql] CONNECT:[ UseTime:0.002650s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:07:59][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.009804s ]
+[2020-10-29 15:07:59][sql] SELECT * FROM `system_menu` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.001343s ]
+[2020-10-29 15:07:59][sql] UPDATE `system_menu`  SET `pid` = 67 , `title` = '号码列表' , `url` = '/numbers/index' , `params` = '' , `node` = 'numbers/index' , `icon` = 'fa fa-phone' , `id` = 68  WHERE  `id` = 68 [ RunTime:0.003416s ]
+[2020-10-29 15:08:02][sql] CONNECT:[ UseTime:0.000444s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:08:02][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.002154s ]
+[2020-10-29 15:08:02][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000941s ]
+[2020-10-29 15:08:02][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001153s ]
+[2020-10-29 15:08:02][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.001205s ]
+[2020-10-29 15:08:02][sql] CONNECT:[ UseTime:0.002881s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:08:02][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002386s ]
+[2020-10-29 15:08:02][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.000618s ]
+[2020-10-29 15:10:14][sql] CONNECT:[ UseTime:0.000474s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:10:14][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001373s ]
+[2020-10-29 15:10:14][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000737s ]
+[2020-10-29 15:10:14][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001187s ]
+[2020-10-29 15:10:14][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.001399s ]
+[2020-10-29 15:10:51][sql] CONNECT:[ UseTime:0.000472s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:10:51][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.002280s ]
+[2020-10-29 15:10:51][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.003156s ]
+[2020-10-29 15:10:51][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001879s ]
+[2020-10-29 15:10:51][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.001499s ]
+[2020-10-29 15:11:21][sql] CONNECT:[ UseTime:0.000437s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:11:21][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001131s ]
+[2020-10-29 15:11:21][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000594s ]
+[2020-10-29 15:11:21][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001123s ]
+[2020-10-29 15:11:21][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.002482s ]
+[2020-10-29 15:11:31][sql] CONNECT:[ UseTime:0.000410s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:11:31][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002544s ]
+[2020-10-29 15:11:31][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.001022s ]
+[2020-10-29 15:11:32][sql] CONNECT:[ UseTime:0.002272s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:11:32][sql] SELECT VERSION() [ RunTime:0.003119s ]
+[2020-10-29 15:11:35][sql] CONNECT:[ UseTime:0.000677s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:11:35][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001199s ]
+[2020-10-29 15:11:35][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000529s ]
+[2020-10-29 15:11:35][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002245s ]
+[2020-10-29 15:11:35][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.001853s ]
+[2020-10-29 15:13:35][sql] CONNECT:[ UseTime:0.000512s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:13:35][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001943s ]
+[2020-10-29 15:13:35][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000614s ]
+[2020-10-29 15:13:35][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001600s ]
+[2020-10-29 15:13:35][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.001079s ]
+[2020-10-29 15:14:05][sql] CONNECT:[ UseTime:0.000448s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:14:05][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001115s ]
+[2020-10-29 15:14:05][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000772s ]
+[2020-10-29 15:14:05][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002389s ]
+[2020-10-29 15:14:05][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.001535s ]
+[2020-10-29 15:16:47][sql] CONNECT:[ UseTime:0.001076s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:16:47][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.002657s ]
+[2020-10-29 15:16:47][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.002960s ]
+[2020-10-29 15:16:47][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001433s ]
+[2020-10-29 15:16:47][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.001519s ]
+[2020-10-29 15:17:37][sql] CONNECT:[ UseTime:0.000449s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:17:37][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001155s ]
+[2020-10-29 15:17:37][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000656s ]
+[2020-10-29 15:17:37][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001248s ]
+[2020-10-29 15:17:37][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.000771s ]
+[2020-10-29 15:18:18][sql] CONNECT:[ UseTime:0.000478s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:18:18][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001439s ]
+[2020-10-29 15:18:18][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.001764s ]
+[2020-10-29 15:18:18][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001409s ]
+[2020-10-29 15:18:18][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.005806s ]
+[2020-10-29 15:19:57][sql] CONNECT:[ UseTime:0.001820s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:19:57][sql] SELECT VERSION() [ RunTime:0.001446s ]
+[2020-10-29 15:25:18][sql] CONNECT:[ UseTime:0.002464s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:25:18][sql] SELECT VERSION() [ RunTime:0.001634s ]
+[2020-10-29 15:25:19][sql] CONNECT:[ UseTime:0.002097s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:25:19][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.009587s ]
+[2020-10-29 15:25:19][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.007272s ]
+[2020-10-29 15:27:12][sql] CONNECT:[ UseTime:0.002007s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:27:12][sql] SELECT VERSION() [ RunTime:0.001224s ]
+[2020-10-29 15:27:14][sql] CONNECT:[ UseTime:0.002226s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:27:14][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002181s ]
+[2020-10-29 15:27:14][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.000883s ]
+[2020-10-29 15:33:04][sql] CONNECT:[ UseTime:0.096258s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:33:04][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.056396s ]
+[2020-10-29 15:33:04][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.022817s ]
+[2020-10-29 15:33:06][sql] CONNECT:[ UseTime:0.000675s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:33:06][sql] SELECT VERSION() [ RunTime:0.002765s ]
+[2020-10-29 15:33:07][sql] CONNECT:[ UseTime:0.002622s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:33:07][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.004340s ]
+[2020-10-29 15:33:07][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.000988s ]
+[2020-10-29 15:33:11][sql] CONNECT:[ UseTime:0.002260s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:33:11][sql] SELECT VERSION() [ RunTime:0.001712s ]
+[2020-10-29 15:33:12][sql] CONNECT:[ UseTime:0.001986s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:33:12][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002049s ]
+[2020-10-29 15:33:12][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.000654s ]
+[2020-10-29 15:33:15][sql] CONNECT:[ UseTime:0.000433s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:33:15][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.010938s ]
+[2020-10-29 15:33:15][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.013001s ]
+[2020-10-29 15:33:15][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002292s ]
+[2020-10-29 15:33:15][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.004484s ]
+[2020-10-29 15:53:00][sql] CONNECT:[ UseTime:0.097001s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:53:00][sql] SELECT VERSION() [ RunTime:0.025336s ]
+[2020-10-29 15:53:01][sql] CONNECT:[ UseTime:0.000481s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:53:01][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.033140s ]
+[2020-10-29 15:53:01][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.024519s ]
+[2020-10-29 15:53:08][sql] CONNECT:[ UseTime:0.001151s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:53:08][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002331s ]
+[2020-10-29 15:53:08][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.001510s ]
+[2020-10-29 15:53:42][sql] CONNECT:[ UseTime:0.000886s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:53:42][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002761s ]
+[2020-10-29 15:53:42][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.001359s ]
+[2020-10-29 15:53:45][sql] CONNECT:[ UseTime:0.001654s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:53:45][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.003298s ]
+[2020-10-29 15:53:45][sql] SELECT `id`,`id`,`pid`,`icon`,`url`,`node`,`title`,`params` FROM `system_menu` ORDER BY `sort` DESC,`id` ASC [ RunTime:0.000664s ]
+[2020-10-29 15:54:01][sql] CONNECT:[ UseTime:0.000964s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:54:01][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001518s ]
+[2020-10-29 15:54:01][sql] SELECT * FROM `system_menu` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.005660s ]
+[2020-10-29 15:54:01][sql] INSERT INTO `system_menu` SET `pid` = 0 , `title` = '接收短信' , `url` = '#' , `params` = '' , `node` = '' , `icon` = '' [ RunTime:0.074704s ]
+[2020-10-29 15:54:04][sql] CONNECT:[ UseTime:0.022226s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:54:04][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.006808s ]
+[2020-10-29 15:54:04][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.008491s ]
+[2020-10-29 15:54:04][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001635s ]
+[2020-10-29 15:54:04][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.005099s ]
+[2020-10-29 15:54:05][sql] CONNECT:[ UseTime:0.002494s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:54:05][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001047s ]
+[2020-10-29 15:54:05][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.001182s ]
+[2020-10-29 15:54:10][sql] CONNECT:[ UseTime:0.000659s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:54:10][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002856s ]
+[2020-10-29 15:54:10][sql] UPDATE `system_menu`  SET `sort` = 888  WHERE  `id` = 69 [ RunTime:0.010526s ]
+[2020-10-29 15:54:13][sql] CONNECT:[ UseTime:0.002109s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:54:13][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002308s ]
+[2020-10-29 15:54:13][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.005609s ]
+[2020-10-29 15:54:16][sql] CONNECT:[ UseTime:0.001035s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:54:16][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002827s ]
+[2020-10-29 15:54:16][sql] SELECT `id`,`id`,`pid`,`icon`,`url`,`node`,`title`,`params` FROM `system_menu` ORDER BY `sort` DESC,`id` ASC [ RunTime:0.000622s ]
+[2020-10-29 15:55:10][sql] CONNECT:[ UseTime:0.001636s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:55:10][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.003676s ]
+[2020-10-29 15:55:10][sql] SELECT * FROM `system_menu` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.006285s ]
+[2020-10-29 15:55:10][sql] INSERT INTO `system_menu` SET `pid` = 69 , `title` = '短信列表' , `url` = '/sms/index' , `params` = '' , `node` = 'sms/index' , `icon` = 'layui-icon layui-icon-release' [ RunTime:0.011532s ]
+[2020-10-29 15:55:12][sql] CONNECT:[ UseTime:0.000486s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:55:12][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001327s ]
+[2020-10-29 15:55:12][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.002367s ]
+[2020-10-29 15:55:12][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001892s ]
+[2020-10-29 15:55:12][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.002161s ]
+[2020-10-29 15:55:13][sql] CONNECT:[ UseTime:0.001084s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:55:13][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.003825s ]
+[2020-10-29 15:55:13][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.002396s ]
+[2020-10-29 15:57:19][sql] CONNECT:[ UseTime:0.000963s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 15:57:19][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001536s ]
+[2020-10-29 15:57:19][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.002603s ]
+[2020-10-29 15:57:19][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001045s ]
+[2020-10-29 15:57:19][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.000661s ]
+[2020-10-29 16:35:07][sql] CONNECT:[ UseTime:0.078390s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 16:35:07][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.071419s ]
+[2020-10-29 16:35:07][sql] SELECT * FROM `system_user` WHERE  `username` = 'admin'  AND `is_deleted` = 0 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.029925s ]
+[2020-10-29 16:35:07][sql] UPDATE `system_user`  SET `login_ip` = '127.0.0.1' , `login_at` = now() , `login_num` = login_num+1  WHERE  `id` = 10000 [ RunTime:0.027103s ]
+[2020-10-29 16:35:07][sql] SHOW FULL COLUMNS FROM `system_oplog` [ RunTime:0.008370s ]
+[2020-10-29 16:35:07][sql] INSERT INTO `system_oplog` SET `node` = 'admin/login/index' , `action` = '用户登录' , `content` = '登录系统后台成功' , `geoip` = '127.0.0.1' , `username` = 'admin' [ RunTime:0.006720s ]
+[2020-10-29 16:35:07][sql] CONNECT:[ UseTime:0.000415s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 16:35:07][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001253s ]
+[2020-10-29 16:35:07][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.003191s ]
+[2020-10-29 16:35:07][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.005846s ]
+[2020-10-29 16:35:07][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.009154s ]
+[2020-10-29 16:35:17][sql] CONNECT:[ UseTime:0.000411s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 16:35:17][sql] SELECT VERSION() [ RunTime:0.002315s ]
+[2020-10-29 16:35:18][sql] CONNECT:[ UseTime:0.001158s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 16:35:18][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002273s ]
+[2020-10-29 16:35:18][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.000645s ]
+[2020-10-29 16:35:24][sql] CONNECT:[ UseTime:0.000425s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 16:35:24][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001088s ]
+[2020-10-29 16:35:24][sql] SELECT `id`,`id`,`pid`,`icon`,`url`,`node`,`title`,`params` FROM `system_menu` ORDER BY `sort` DESC,`id` ASC [ RunTime:0.009799s ]
+[2020-10-29 16:36:56][sql] CONNECT:[ UseTime:0.036746s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 16:36:56][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.044852s ]
+[2020-10-29 16:36:56][sql] SELECT * FROM `system_menu` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.007927s ]
+[2020-10-29 16:36:56][sql] INSERT INTO `system_menu` SET `pid` = 67 , `title` = '过滤手机管理' , `url` = '/numbers/device' , `params` = '' , `node` = 'numbers/device' , `icon` = 'fa fa-mobile-phone' [ RunTime:0.028221s ]
+[2020-10-29 16:36:59][sql] CONNECT:[ UseTime:0.000955s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 16:36:59][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.007896s ]
+[2020-10-29 16:36:59][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.001141s ]
+[2020-10-29 16:36:59][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001052s ]
+[2020-10-29 16:36:59][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.002188s ]
+[2020-10-29 16:37:00][sql] CONNECT:[ UseTime:0.001370s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 16:37:00][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.016228s ]
+[2020-10-29 16:37:00][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.001919s ]
+[2020-10-29 16:38:23][sql] CONNECT:[ UseTime:0.000843s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 16:38:23][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.004365s ]
+[2020-10-29 16:38:23][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000991s ]
+[2020-10-29 16:38:23][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002868s ]
+[2020-10-29 16:38:23][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.000814s ]
+[2020-10-29 16:38:38][sql] CONNECT:[ UseTime:0.000489s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 16:38:38][sql] SELECT VERSION() [ RunTime:0.001984s ]
+[2020-10-29 16:38:41][sql] CONNECT:[ UseTime:0.001902s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 16:38:41][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001168s ]
+[2020-10-29 16:38:41][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.002639s ]
+[2020-10-29 16:38:47][sql] CONNECT:[ UseTime:0.000384s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 16:38:47][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.004236s ]
+[2020-10-29 16:38:47][sql] SELECT * FROM `system_menu` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.001975s ]
+[2020-10-29 16:38:47][sql] SELECT `id`,`id`,`pid`,`icon`,`url`,`node`,`title`,`params` FROM `system_menu` ORDER BY `sort` DESC,`id` ASC [ RunTime:0.001845s ]
+[2020-10-29 16:38:59][sql] CONNECT:[ UseTime:0.000428s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 16:38:59][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001259s ]
+[2020-10-29 16:38:59][sql] SELECT * FROM `system_menu` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000616s ]
+[2020-10-29 16:38:59][sql] UPDATE `system_menu`  SET `pid` = 67 , `title` = '手机号码管理' , `url` = '/numbers/index' , `params` = '' , `node` = 'numbers/index' , `icon` = 'fa fa-phone' , `id` = 68  WHERE  `id` = 68 [ RunTime:0.010826s ]
+[2020-10-29 16:39:01][sql] CONNECT:[ UseTime:0.001670s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 16:39:01][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001358s ]
+[2020-10-29 16:39:01][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000703s ]
+[2020-10-29 16:39:01][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001847s ]
+[2020-10-29 16:39:01][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.001231s ]
+[2020-10-29 16:39:02][sql] CONNECT:[ UseTime:0.001603s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 16:39:02][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.004179s ]
+[2020-10-29 16:39:02][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.000780s ]
+[2020-10-29 16:39:13][sql] CONNECT:[ UseTime:0.000439s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 16:39:13][sql] SELECT VERSION() [ RunTime:0.001319s ]
+[2020-10-29 16:39:15][sql] CONNECT:[ UseTime:0.001425s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 16:39:15][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001199s ]
+[2020-10-29 16:39:15][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.000610s ]
+[2020-10-29 16:39:26][sql] CONNECT:[ UseTime:0.001325s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 16:39:26][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002091s ]
+[2020-10-29 16:39:26][sql] SELECT * FROM `system_menu` WHERE  `id` = 71 LIMIT 1 [ RunTime:0.001100s ]
+[2020-10-29 16:39:26][sql] SELECT `id`,`id`,`pid`,`icon`,`url`,`node`,`title`,`params` FROM `system_menu` ORDER BY `sort` DESC,`id` ASC [ RunTime:0.002386s ]
+[2020-10-29 16:39:38][sql] CONNECT:[ UseTime:0.001524s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 16:39:38][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.003849s ]
+[2020-10-29 16:39:38][sql] SELECT * FROM `system_menu` WHERE  `id` = 71 LIMIT 1 [ RunTime:0.002634s ]
+[2020-10-29 16:39:38][sql] UPDATE `system_menu`  SET `pid` = 67 , `title` = '过滤手机管理' , `url` = '/numbers/device' , `params` = '' , `node` = 'numbers/device' , `icon` = 'layui-icon layui-icon-cellphone' , `id` = 71  WHERE  `id` = 71 [ RunTime:0.003005s ]
+[2020-10-29 16:39:40][sql] CONNECT:[ UseTime:0.002212s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 16:39:40][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.022897s ]
+[2020-10-29 16:39:40][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.003133s ]
+[2020-10-29 16:39:40][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001013s ]
+[2020-10-29 16:39:40][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.002852s ]
+[2020-10-29 16:39:41][sql] CONNECT:[ UseTime:0.001193s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 16:39:41][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001102s ]
+[2020-10-29 16:39:41][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.000743s ]
+[2020-10-29 16:41:24][sql] CONNECT:[ UseTime:0.001283s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 16:41:24][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001333s ]
+[2020-10-29 16:41:24][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.002449s ]
+[2020-10-29 16:41:24][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001374s ]
+[2020-10-29 16:41:24][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.001945s ]
+[2020-10-29 16:42:09][sql] CONNECT:[ UseTime:0.000473s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 16:42:09][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001007s ]
+[2020-10-29 16:42:09][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000682s ]
+[2020-10-29 16:42:09][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002358s ]
+[2020-10-29 16:42:09][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.001300s ]
+[2020-10-29 17:23:14][sql] CONNECT:[ UseTime:0.171198s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 17:23:14][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.138786s ]
+[2020-10-29 17:23:14][sql] SELECT * FROM `system_user` WHERE  `username` = 'admin'  AND `is_deleted` = 0 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.055796s ]
+[2020-10-29 17:23:14][sql] UPDATE `system_user`  SET `login_ip` = '127.0.0.1' , `login_at` = now() , `login_num` = login_num+1  WHERE  `id` = 10000 [ RunTime:0.066792s ]
+[2020-10-29 17:23:14][sql] SHOW FULL COLUMNS FROM `system_oplog` [ RunTime:0.029516s ]
+[2020-10-29 17:23:14][sql] INSERT INTO `system_oplog` SET `node` = 'admin/login/index' , `action` = '用户登录' , `content` = '登录系统后台成功' , `geoip` = '127.0.0.1' , `username` = 'admin' [ RunTime:0.051890s ]
+[2020-10-29 17:23:15][sql] CONNECT:[ UseTime:0.001042s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 17:23:15][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001070s ]
+[2020-10-29 17:23:15][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.014913s ]
+[2020-10-29 17:23:15][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.021737s ]
+[2020-10-29 17:23:15][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.016749s ]
+[2020-10-29 17:59:03][sql] CONNECT:[ UseTime:0.064111s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 17:59:03][sql] SELECT VERSION() [ RunTime:0.029470s ]
+[2020-10-29 17:59:05][sql] CONNECT:[ UseTime:0.020692s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 17:59:05][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.051923s ]
+[2020-10-29 17:59:05][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.039859s ]
+[2020-10-29 17:59:24][sql] CONNECT:[ UseTime:0.000402s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 17:59:24][sql] SHOW FULL COLUMNS FROM `system_oplog` [ RunTime:0.007227s ]
+[2020-10-29 17:59:24][sql] SELECT COUNT(*) AS think_count FROM `system_oplog` [ RunTime:0.006941s ]
+[2020-10-29 17:59:24][sql] SELECT * FROM `system_oplog` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.002546s ]
+[2020-10-29 18:12:15][sql] CONNECT:[ UseTime:0.057547s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:12:15][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.036796s ]
+[2020-10-29 18:12:15][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.022844s ]
+[2020-10-29 18:12:15][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.011309s ]
+[2020-10-29 18:12:15][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.033941s ]
+[2020-10-29 18:18:50][sql] CONNECT:[ UseTime:0.009792s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:18:50][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.030094s ]
+[2020-10-29 18:18:50][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.015538s ]
+[2020-10-29 18:18:50][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.007726s ]
+[2020-10-29 18:18:50][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.012832s ]
+[2020-10-29 18:19:12][sql] CONNECT:[ UseTime:0.001832s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:19:12][sql] SELECT VERSION() [ RunTime:0.003471s ]
+[2020-10-29 18:19:15][sql] CONNECT:[ UseTime:0.001988s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:19:15][sql] SHOW FULL COLUMNS FROM `system_oplog` [ RunTime:0.007368s ]
+[2020-10-29 18:19:15][sql] SELECT COUNT(*) AS think_count FROM `system_oplog` [ RunTime:0.004444s ]
+[2020-10-29 18:19:15][sql] SELECT * FROM `system_oplog` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.001443s ]
+[2020-10-29 18:19:19][sql] CONNECT:[ UseTime:0.002577s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:19:19][sql] SELECT VERSION() [ RunTime:0.001589s ]
+[2020-10-29 18:19:20][sql] CONNECT:[ UseTime:0.000432s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:19:20][sql] SHOW FULL COLUMNS FROM `system_oplog` [ RunTime:0.001026s ]
+[2020-10-29 18:19:20][sql] SELECT COUNT(*) AS think_count FROM `system_oplog` [ RunTime:0.001143s ]
+[2020-10-29 18:19:20][sql] SELECT * FROM `system_oplog` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.001648s ]
+[2020-10-29 18:19:22][sql] CONNECT:[ UseTime:0.002200s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:19:22][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.003283s ]
+[2020-10-29 18:19:22][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.000528s ]
+[2020-10-29 18:19:33][sql] CONNECT:[ UseTime:0.000474s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:19:33][sql] SHOW FULL COLUMNS FROM `system_auth` [ RunTime:0.020620s ]
+[2020-10-29 18:19:33][sql] SELECT COUNT(*) AS think_count FROM `system_auth` [ RunTime:0.018764s ]
+[2020-10-29 18:19:33][sql] SELECT * FROM `system_auth` ORDER BY `sort` DESC,`id` DESC LIMIT 0,20 [ RunTime:0.002160s ]
+[2020-10-29 18:19:34][sql] CONNECT:[ UseTime:0.000465s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:19:34][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002109s ]
+[2020-10-29 18:19:34][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.000644s ]
+[2020-10-29 18:19:45][sql] CONNECT:[ UseTime:0.000746s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:19:45][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002266s ]
+[2020-10-29 18:19:45][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.012219s ]
+[2020-10-29 22:09:12][sql] CONNECT:[ UseTime:0.000509s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 22:09:12][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.033626s ]
+[2020-10-29 22:09:12][sql] SELECT * FROM `system_user` WHERE  `username` = 'admin'  AND `is_deleted` = 0 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.020098s ]
+[2020-10-29 22:09:12][sql] UPDATE `system_user`  SET `login_ip` = '127.0.0.1' , `login_at` = now() , `login_num` = login_num+1  WHERE  `id` = 10000 [ RunTime:0.040551s ]
+[2020-10-29 22:09:12][sql] SHOW FULL COLUMNS FROM `system_oplog` [ RunTime:0.032377s ]
+[2020-10-29 22:09:12][sql] INSERT INTO `system_oplog` SET `node` = 'admin/login/index' , `action` = '用户登录' , `content` = '登录系统后台成功' , `geoip` = '127.0.0.1' , `username` = 'admin' [ RunTime:0.034880s ]
+[2020-10-29 22:09:12][sql] CONNECT:[ UseTime:0.000517s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 22:09:12][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001197s ]
+[2020-10-29 22:09:12][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.018596s ]
+[2020-10-29 22:09:12][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.006189s ]
+[2020-10-29 22:09:12][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.021127s ]
+[2020-10-29 22:15:18][sql] CONNECT:[ UseTime:0.000488s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 22:15:18][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.019836s ]
+[2020-10-29 22:15:18][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.003573s ]
+[2020-10-29 22:15:18][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002249s ]
+[2020-10-29 22:15:18][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.007177s ]
+[2020-10-29 22:15:33][sql] CONNECT:[ UseTime:0.001852s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 22:15:33][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001342s ]
+[2020-10-29 22:15:33][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000533s ]
+[2020-10-29 22:15:33][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001510s ]
+[2020-10-29 22:15:33][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.000699s ]
+[2020-10-30 09:56:43][sql] CONNECT:[ UseTime:0.345662s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 09:56:43][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.380595s ]
+[2020-10-30 09:56:43][sql] SELECT * FROM `system_user` WHERE  `username` = 'admin'  AND `is_deleted` = 0 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.032558s ]
+[2020-10-30 09:56:43][sql] UPDATE `system_user`  SET `login_ip` = '127.0.0.1' , `login_at` = now() , `login_num` = login_num+1  WHERE  `id` = 10000 [ RunTime:0.057485s ]
+[2020-10-30 09:56:43][sql] SHOW FULL COLUMNS FROM `system_oplog` [ RunTime:0.027077s ]
+[2020-10-30 09:56:43][sql] INSERT INTO `system_oplog` SET `node` = 'admin/login/index' , `action` = '用户登录' , `content` = '登录系统后台成功' , `geoip` = '127.0.0.1' , `username` = 'admin' [ RunTime:0.010090s ]
+[2020-10-30 09:56:44][sql] CONNECT:[ UseTime:0.007267s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 09:56:44][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.002203s ]
+[2020-10-30 09:56:44][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.003328s ]
+[2020-10-30 09:56:44][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.012145s ]
+[2020-10-30 09:56:44][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.014087s ]
+[2020-10-30 11:55:35][sql] CONNECT:[ UseTime:0.027155s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 11:55:35][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.022979s ]
+[2020-10-30 11:55:35][sql] SELECT * FROM `system_user` WHERE  `username` = 'admin'  AND `is_deleted` = 0 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.012256s ]
+[2020-10-30 11:55:35][sql] UPDATE `system_user`  SET `login_ip` = '127.0.0.1' , `login_at` = now() , `login_num` = login_num+1  WHERE  `id` = 10000 [ RunTime:0.007124s ]
+[2020-10-30 11:55:35][sql] SHOW FULL COLUMNS FROM `system_oplog` [ RunTime:0.004286s ]
+[2020-10-30 11:55:35][sql] INSERT INTO `system_oplog` SET `node` = 'admin/login/index' , `action` = '用户登录' , `content` = '登录系统后台成功' , `geoip` = '127.0.0.1' , `username` = 'admin' [ RunTime:0.008452s ]
+[2020-10-30 11:55:35][sql] CONNECT:[ UseTime:0.001112s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 11:55:35][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.002362s ]
+[2020-10-30 11:55:35][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.002417s ]
+[2020-10-30 11:55:35][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.003717s ]
+[2020-10-30 11:55:35][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.018025s ]
+[2020-10-30 12:08:55][sql] CONNECT:[ UseTime:0.047474s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:08:55][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.071933s ]
+[2020-10-30 12:08:55][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.064494s ]
+[2020-10-30 12:08:55][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.007113s ]
+[2020-10-30 12:08:55][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.028509s ]
+[2020-10-30 12:44:46][sql] CONNECT:[ UseTime:0.072302s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:44:46][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.013843s ]
+[2020-10-30 12:44:46][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.010097s ]
+[2020-10-30 12:44:46][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.007334s ]
+[2020-10-30 12:44:46][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.022054s ]
+[2020-10-30 12:46:22][sql] CONNECT:[ UseTime:0.000602s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:46:22][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.004549s ]
+[2020-10-30 12:46:22][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.014781s ]
+[2020-10-30 12:46:22][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002272s ]
+[2020-10-30 12:46:22][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.010091s ]
+[2020-10-30 12:46:47][sql] CONNECT:[ UseTime:0.000584s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:46:47][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.004293s ]
+[2020-10-30 12:46:47][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.001419s ]
+[2020-10-30 12:46:47][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001167s ]
+[2020-10-30 12:46:47][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.000694s ]
+[2020-10-30 12:47:09][sql] CONNECT:[ UseTime:0.000485s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:47:09][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.004742s ]
+[2020-10-30 12:47:09][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000684s ]
+[2020-10-30 12:47:09][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001532s ]
+[2020-10-30 12:47:09][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.002537s ]
+[2020-10-30 12:47:37][sql] CONNECT:[ UseTime:0.000385s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:47:37][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001141s ]
+[2020-10-30 12:47:37][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.002118s ]
+[2020-10-30 12:47:37][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001416s ]
+[2020-10-30 12:47:37][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.003334s ]
+[2020-10-30 12:47:58][sql] CONNECT:[ UseTime:0.001841s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:47:58][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001963s ]
+[2020-10-30 12:47:58][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000593s ]
+[2020-10-30 12:47:58][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001632s ]
+[2020-10-30 12:47:58][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.000587s ]
+[2020-10-30 12:48:38][sql] CONNECT:[ UseTime:0.000392s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:48:38][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.002507s ]
+[2020-10-30 12:48:38][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000604s ]
+[2020-10-30 12:48:38][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002494s ]
+[2020-10-30 12:48:38][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.001391s ]
+[2020-10-30 12:50:36][sql] CONNECT:[ UseTime:0.000495s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:50:36][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.002625s ]
+[2020-10-30 12:50:36][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.004718s ]
+[2020-10-30 12:50:36][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001381s ]
+[2020-10-30 12:50:36][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.000705s ]
+[2020-10-30 12:52:10][sql] CONNECT:[ UseTime:0.047052s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:52:10][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.036972s ]
+[2020-10-30 12:52:10][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.023359s ]
+[2020-10-30 12:52:10][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001570s ]
+[2020-10-30 12:52:10][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.006028s ]
+[2020-10-30 12:52:14][sql] CONNECT:[ UseTime:0.000457s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:52:14][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.000998s ]
+[2020-10-30 12:52:14][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000629s ]
+[2020-10-30 12:52:14][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001286s ]
+[2020-10-30 12:52:14][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.003095s ]
+[2020-10-30 12:52:27][sql] CONNECT:[ UseTime:0.000389s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:52:27][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001178s ]
+[2020-10-30 12:52:27][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000644s ]
+[2020-10-30 12:52:27][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001028s ]
+[2020-10-30 12:52:27][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.000543s ]
+[2020-10-30 12:54:46][sql] CONNECT:[ UseTime:0.000421s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:54:46][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.002418s ]
+[2020-10-30 12:54:46][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000797s ]
+[2020-10-30 12:54:46][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.000967s ]
+[2020-10-30 12:54:46][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.000728s ]
+[2020-10-30 13:02:12][sql] CONNECT:[ UseTime:0.104524s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:02:12][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.853543s ]
+[2020-10-30 13:02:12][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.054660s ]
+[2020-10-30 13:02:12][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.046006s ]
+[2020-10-30 13:02:12][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.027999s ]
+[2020-10-30 13:05:07][sql] CONNECT:[ UseTime:0.096167s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:05:07][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.038480s ]
+[2020-10-30 13:05:07][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.017065s ]
+[2020-10-30 13:05:07][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.027415s ]
+[2020-10-30 13:05:07][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.016823s ]
+[2020-10-30 13:05:46][sql] CONNECT:[ UseTime:0.001935s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:05:46][sql] SELECT VERSION() [ RunTime:0.002823s ]
+[2020-10-30 13:05:49][sql] CONNECT:[ UseTime:0.000469s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:05:49][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.004609s ]
+[2020-10-30 13:05:49][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.009934s ]
+[2020-10-30 13:07:40][sql] CONNECT:[ UseTime:0.060275s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:07:40][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.039020s ]
+[2020-10-30 13:07:40][sql] SELECT COUNT(*) AS think_count FROM `system_user` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.022958s ]
+[2020-10-30 13:07:40][sql] SELECT * FROM `system_user` WHERE  `is_deleted` = 0  AND `status` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 0,10 [ RunTime:0.004156s ]
+[2020-10-30 13:07:40][sql] CONNECT:[ UseTime:0.000566s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:07:40][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.002362s ]
+[2020-10-30 13:07:40][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.001929s ]
+[2020-10-30 13:07:40][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.003076s ]
+[2020-10-30 13:07:40][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.007431s ]
+[2020-10-30 13:07:44][sql] CONNECT:[ UseTime:0.004040s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:07:44][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001972s ]
+[2020-10-30 13:07:44][sql] SHOW FULL COLUMNS FROM `system_auth` [ RunTime:0.005059s ]
+[2020-10-30 13:07:44][sql] SELECT * FROM `system_auth` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` DESC [ RunTime:0.006811s ]
+[2020-10-30 13:18:20][sql] CONNECT:[ UseTime:0.003296s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:18:20][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.013032s ]
+[2020-10-30 13:18:20][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.022083s ]
+[2020-10-30 13:18:20][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.004560s ]
+[2020-10-30 13:18:20][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.032214s ]
+[2020-10-30 13:27:57][sql] CONNECT:[ UseTime:0.081684s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:27:57][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.086201s ]
+[2020-10-30 13:27:57][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.057360s ]
+[2020-10-30 13:27:57][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.013963s ]
+[2020-10-30 13:27:57][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.050571s ]
+[2020-10-30 13:34:15][sql] CONNECT:[ UseTime:0.001041s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:34:15][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.019416s ]
+[2020-10-30 13:34:15][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.036961s ]
+[2020-10-30 13:37:11][sql] CONNECT:[ UseTime:0.061055s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:37:11][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.033484s ]
+[2020-10-30 13:37:11][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.017746s ]
+[2020-10-30 13:37:11][sql] UPDATE `system_user`  SET `headimg` = 'http://127.0.0.1:8000/upload/05/4e308fd3f6a405374e1268e1c74a29.jpg' , `nickname` = '系统管理员' , `contact_mail` = '' , `contact_phone` = '' , `contact_qq` = '' , `describe` = '' , `id` = 10000  WHERE  `id` = 10000 [ RunTime:0.033315s ]
+[2020-10-30 13:37:19][sql] CONNECT:[ UseTime:0.001399s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:37:19][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.002441s ]
+[2020-10-30 13:37:19][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.001914s ]
+[2020-10-30 13:37:19][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.019920s ]
+[2020-10-30 13:37:19][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.036406s ]
+[2020-10-30 13:37:27][sql] CONNECT:[ UseTime:0.000400s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:37:27][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.003128s ]
+[2020-10-30 13:37:27][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000568s ]
+[2020-10-30 13:40:49][sql] CONNECT:[ UseTime:0.046582s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:40:49][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.042787s ]
+[2020-10-30 13:40:49][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.029306s ]
+[2020-10-30 13:40:59][sql] CONNECT:[ UseTime:0.010539s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:40:59][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.008999s ]
+[2020-10-30 13:40:59][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.006114s ]
+[2020-10-30 13:42:19][sql] CONNECT:[ UseTime:0.054084s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:42:19][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.038401s ]
+[2020-10-30 13:42:19][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.016358s ]
+[2020-10-30 14:09:51][sql] CONNECT:[ UseTime:0.644423s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:09:51][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.516858s ]
+[2020-10-30 14:09:51][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.136929s ]
+[2020-10-30 14:09:51][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.098064s ]
+[2020-10-30 14:09:51][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.043874s ]
+[2020-10-30 14:15:30][sql] CONNECT:[ UseTime:0.043796s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:15:30][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.051434s ]
+[2020-10-30 14:15:30][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.021061s ]
+[2020-10-30 14:15:30][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.010112s ]
+[2020-10-30 14:15:30][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.010803s ]
+[2020-10-30 14:16:19][sql] CONNECT:[ UseTime:0.019026s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:16:19][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.021122s ]
+[2020-10-30 14:16:19][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.011832s ]
+[2020-10-30 14:16:19][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002989s ]
+[2020-10-30 14:16:19][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.003859s ]
+[2020-10-30 14:18:00][sql] CONNECT:[ UseTime:0.159429s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:18:00][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.139393s ]
+[2020-10-30 14:18:00][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.041216s ]
+[2020-10-30 14:18:00][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.023737s ]
+[2020-10-30 14:18:00][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.009734s ]
+[2020-10-30 14:19:54][sql] CONNECT:[ UseTime:0.038693s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:19:54][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.018512s ]
+[2020-10-30 14:19:54][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.009569s ]
+[2020-10-30 14:19:54][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001916s ]
+[2020-10-30 14:19:54][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.006125s ]
+[2020-10-30 14:21:41][sql] CONNECT:[ UseTime:0.052856s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:21:41][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.036697s ]
+[2020-10-30 14:21:41][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.011267s ]
+[2020-10-30 14:21:41][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.003254s ]
+[2020-10-30 14:21:41][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.021559s ]
+[2020-10-30 14:27:03][sql] CONNECT:[ UseTime:0.057194s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:27:03][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.054396s ]
+[2020-10-30 14:27:03][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.015261s ]
+[2020-10-30 14:39:16][sql] CONNECT:[ UseTime:0.044593s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:39:16][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.037492s ]
+[2020-10-30 14:39:16][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.020922s ]
+[2020-10-30 14:49:43][sql] CONNECT:[ UseTime:0.488253s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:49:43][sql] SELECT VERSION() [ RunTime:0.032385s ]
+[2020-10-30 14:49:47][sql] CONNECT:[ UseTime:0.001504s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:49:47][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.053271s ]
+[2020-10-30 14:49:47][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.046019s ]
+[2020-10-30 14:49:49][sql] CONNECT:[ UseTime:0.000574s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:49:49][sql] SELECT VERSION() [ RunTime:0.000268s ]
+[2020-10-30 14:57:57][sql] CONNECT:[ UseTime:0.036530s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:57:57][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.103273s ]
+[2020-10-30 14:57:57][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.028646s ]
+[2020-10-30 14:57:57][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.003706s ]
+[2020-10-30 14:57:57][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.008975s ]
+[2020-10-30 15:01:15][sql] CONNECT:[ UseTime:0.166796s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 15:01:15][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.113325s ]
+[2020-10-30 15:01:15][sql] SELECT * FROM `system_user` WHERE  `username` = 'admin'  AND `is_deleted` = 0 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.044144s ]
+[2020-10-30 15:01:15][sql] UPDATE `system_user`  SET `login_ip` = '127.0.0.1' , `login_at` = now() , `login_num` = login_num+1  WHERE  `id` = 10000 [ RunTime:0.058541s ]
+[2020-10-30 15:01:15][sql] SHOW FULL COLUMNS FROM `system_oplog` [ RunTime:0.018532s ]
+[2020-10-30 15:01:15][sql] INSERT INTO `system_oplog` SET `node` = 'admin/login/index' , `action` = '用户登录' , `content` = '登录系统后台成功' , `geoip` = '127.0.0.1' , `username` = 'admin' [ RunTime:0.021450s ]
+[2020-10-30 15:01:15][sql] CONNECT:[ UseTime:0.001722s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 15:01:15][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.002199s ]
+[2020-10-30 15:01:15][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.001167s ]
+[2020-10-30 15:01:15][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001822s ]
+[2020-10-30 15:01:15][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.002770s ]
+[2020-10-30 15:03:37][sql] CONNECT:[ UseTime:0.072783s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 15:03:37][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.039268s ]
+[2020-10-30 15:03:37][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.023722s ]
+[2020-10-30 15:03:37][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002525s ]
+[2020-10-30 15:03:37][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.004931s ]
+[2020-10-30 15:23:45][sql] CONNECT:[ UseTime:0.177038s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 15:23:45][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.146548s ]
+[2020-10-30 15:23:45][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.084223s ]
+[2020-10-30 15:23:45][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.012232s ]
+[2020-10-30 15:23:45][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.025542s ]
+[2020-10-30 15:24:39][sql] CONNECT:[ UseTime:0.019684s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 15:24:39][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.020600s ]
+[2020-10-30 15:24:39][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.012903s ]
+[2020-10-30 15:24:39][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001100s ]
+[2020-10-30 15:24:39][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.002916s ]
+[2020-10-30 15:28:21][sql] CONNECT:[ UseTime:0.052073s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 15:28:21][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.036989s ]
+[2020-10-30 15:28:21][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.016875s ]
+[2020-10-30 15:28:21][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002012s ]
+[2020-10-30 15:28:21][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.005586s ]
+[2020-10-30 16:16:27][sql] CONNECT:[ UseTime:0.070775s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 16:16:27][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.068134s ]
+[2020-10-30 16:16:27][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.091719s ]
+[2020-10-30 16:16:27][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.017847s ]
+[2020-10-30 16:16:27][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.028881s ]
+[2020-10-30 16:46:00][sql] CONNECT:[ UseTime:0.095621s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 16:46:00][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.132968s ]
+[2020-10-30 16:46:00][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.018050s ]
+[2020-10-30 16:46:00][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.003229s ]
+[2020-10-30 16:46:00][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.006049s ]
+[2020-10-30 16:47:21][sql] CONNECT:[ UseTime:0.049514s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 16:47:21][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.054353s ]
+[2020-10-30 16:47:21][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.016477s ]
+[2020-10-30 16:53:16][sql] CONNECT:[ UseTime:0.164799s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 16:53:16][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.100144s ]
+[2020-10-30 16:53:16][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.031555s ]
+[2020-10-30 16:53:16][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.017529s ]
+[2020-10-30 16:53:16][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.071632s ]
+[2020-10-30 16:55:18][sql] CONNECT:[ UseTime:0.100271s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 16:55:18][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.046349s ]
+[2020-10-30 16:55:18][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.019139s ]
+[2020-10-30 16:55:18][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002813s ]
+[2020-10-30 16:55:18][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.002844s ]
+[2020-10-30 16:58:48][sql] CONNECT:[ UseTime:0.050301s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 16:58:48][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.047889s ]
+[2020-10-30 16:58:48][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.017187s ]
+[2020-10-30 16:58:48][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002909s ]
+[2020-10-30 16:58:48][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.008623s ]
+[2020-10-30 17:08:24][sql] CONNECT:[ UseTime:0.092358s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:08:24][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.080131s ]
+[2020-10-30 17:08:24][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.024292s ]
+[2020-10-30 17:08:24][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.027478s ]
+[2020-10-30 17:08:24][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.029319s ]
+[2020-10-30 17:09:31][sql] CONNECT:[ UseTime:0.042973s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:09:31][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.019538s ]
+[2020-10-30 17:09:31][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.009761s ]
+[2020-10-30 17:09:31][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.003363s ]
+[2020-10-30 17:09:31][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.013737s ]
+[2020-10-30 17:15:34][sql] CONNECT:[ UseTime:0.038888s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:15:34][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.028933s ]
+[2020-10-30 17:15:34][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.017869s ]
+[2020-10-30 17:15:34][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001456s ]
+[2020-10-30 17:15:34][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.008314s ]
+[2020-10-30 17:17:15][sql] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:17:15][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.002328s ]
+[2020-10-30 17:17:15][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000484s ]
+[2020-10-30 17:17:15][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.003426s ]
+[2020-10-30 17:17:15][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.001984s ]
+[2020-10-30 17:17:39][sql] CONNECT:[ UseTime:0.000417s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:17:39][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001283s ]
+[2020-10-30 17:17:39][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.002337s ]
+[2020-10-30 17:17:39][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002021s ]
+[2020-10-30 17:17:39][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.000633s ]
+[2020-10-30 17:18:08][sql] CONNECT:[ UseTime:0.001563s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:18:08][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001247s ]
+[2020-10-30 17:18:08][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.001623s ]
+[2020-10-30 17:18:08][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.005090s ]
+[2020-10-30 17:18:08][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.001455s ]
+[2020-10-30 17:18:22][sql] CONNECT:[ UseTime:0.001974s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:18:22][sql] SELECT VERSION() [ RunTime:0.006266s ]
+[2020-10-30 17:18:38][sql] CONNECT:[ UseTime:0.000805s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:18:38][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.003408s ]
+[2020-10-30 17:18:38][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.001097s ]
+[2020-10-30 17:18:40][sql] CONNECT:[ UseTime:0.002099s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:18:40][sql] SHOW FULL COLUMNS FROM `system_auth` [ RunTime:0.005826s ]
+[2020-10-30 17:18:40][sql] SELECT COUNT(*) AS think_count FROM `system_auth` [ RunTime:0.005968s ]
+[2020-10-30 17:18:40][sql] SELECT * FROM `system_auth` ORDER BY `sort` DESC,`id` DESC LIMIT 0,20 [ RunTime:0.002249s ]
+[2020-10-30 17:18:42][sql] CONNECT:[ UseTime:0.000472s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:18:42][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.003028s ]
+[2020-10-30 17:18:42][sql] SELECT COUNT(*) AS think_count FROM `system_user` WHERE  `is_deleted` = 0  AND `status` = 1 [ RunTime:0.011818s ]
+[2020-10-30 17:18:42][sql] SELECT * FROM `system_user` WHERE  `is_deleted` = 0  AND `status` = 1 ORDER BY `sort` DESC,`id` DESC LIMIT 0,20 [ RunTime:0.002175s ]
+[2020-10-30 17:18:46][sql] CONNECT:[ UseTime:0.001175s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:18:46][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.003427s ]
+[2020-10-30 17:18:46][sql] SELECT COUNT(*) AS think_count FROM `system_user` WHERE  `is_deleted` = 0  AND `status` = 0 [ RunTime:0.000943s ]
+[2020-10-30 17:18:46][sql] SELECT * FROM `system_user` WHERE  `is_deleted` = 0  AND `status` = 0 ORDER BY `sort` DESC,`id` DESC LIMIT 0,20 [ RunTime:0.001031s ]
+[2020-10-30 17:18:47][sql] CONNECT:[ UseTime:0.001420s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:18:47][sql] SELECT VERSION() [ RunTime:0.001050s ]
+[2020-10-30 17:23:13][sql] CONNECT:[ UseTime:0.017770s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:13][sql] SELECT VERSION() [ RunTime:0.028281s ]
+[2020-10-30 17:23:51][sql] CONNECT:[ UseTime:0.000597s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:51][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.051569s ]
+[2020-10-30 17:23:51][sql] SELECT * FROM `system_queue` WHERE  `title` = '优化数据库所有数据表'  AND `status` IN (1,2) LIMIT 1 [ RunTime:0.035541s ]
+[2020-10-30 17:23:51][sql] INSERT INTO `system_queue` SET `code` = 'Q202010304051345' , `title` = '优化数据库所有数据表' , `command` = 'xadmin:database optimize' , `attempts` = 0 , `rscript` = 0 , `exec_data` = '[]' , `exec_time` = 1604049831 , `enter_time` = 0 , `outer_time` = 0 , `loops_time` = 0 [ RunTime:0.069041s ]
+[2020-10-30 17:23:51][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.016188s ]
+[2020-10-30 17:23:51][sql] CONNECT:[ UseTime:0.002361s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:51][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.002523s ]
+[2020-10-30 17:23:51][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.000673s ]
+[2020-10-30 17:23:52][sql] CONNECT:[ UseTime:0.002885s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:52][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.001942s ]
+[2020-10-30 17:23:52][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.001824s ]
+[2020-10-30 17:23:52][sql] CONNECT:[ UseTime:0.000414s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:52][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.001530s ]
+[2020-10-30 17:23:52][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.001889s ]
+[2020-10-30 17:23:52][sql] CONNECT:[ UseTime:0.001391s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:52][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.001916s ]
+[2020-10-30 17:23:52][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.001212s ]
+[2020-10-30 17:23:53][sql] CONNECT:[ UseTime:0.000418s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:53][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.002293s ]
+[2020-10-30 17:23:53][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.001023s ]
+[2020-10-30 17:23:53][sql] CONNECT:[ UseTime:0.000406s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:53][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.003102s ]
+[2020-10-30 17:23:53][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.001282s ]
+[2020-10-30 17:23:53][sql] CONNECT:[ UseTime:0.000442s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:53][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.001415s ]
+[2020-10-30 17:23:53][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.000841s ]
+[2020-10-30 17:23:53][sql] CONNECT:[ UseTime:0.000394s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:53][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.004566s ]
+[2020-10-30 17:23:53][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.000641s ]
+[2020-10-30 17:23:54][sql] CONNECT:[ UseTime:0.000910s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:54][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.001924s ]
+[2020-10-30 17:23:54][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.001372s ]
+[2020-10-30 17:23:54][sql] CONNECT:[ UseTime:0.001254s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:54][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.001927s ]
+[2020-10-30 17:23:54][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.002537s ]
+[2020-10-30 17:23:54][sql] CONNECT:[ UseTime:0.000837s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:54][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.001780s ]
+[2020-10-30 17:23:54][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.000952s ]
+[2020-10-30 17:23:54][sql] CONNECT:[ UseTime:0.000438s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:54][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.004816s ]
+[2020-10-30 17:23:54][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.001993s ]
+[2020-10-30 17:23:54][sql] CONNECT:[ UseTime:0.000924s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:54][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.002782s ]
+[2020-10-30 17:23:54][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.000710s ]
+[2020-10-30 17:23:55][sql] CONNECT:[ UseTime:0.000475s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:55][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.002985s ]
+[2020-10-30 17:23:55][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.000973s ]
+[2020-10-30 17:23:55][sql] CONNECT:[ UseTime:0.000598s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:55][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.001608s ]
+[2020-10-30 17:23:55][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.000585s ]
+[2020-10-30 17:23:55][sql] CONNECT:[ UseTime:0.000415s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:55][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.001300s ]
+[2020-10-30 17:23:55][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.000604s ]
+[2020-10-30 17:23:55][sql] CONNECT:[ UseTime:0.000514s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:55][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.002165s ]
+[2020-10-30 17:23:55][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.000563s ]
+[2020-10-30 17:23:56][sql] CONNECT:[ UseTime:0.000391s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:56][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.001046s ]
+[2020-10-30 17:23:56][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.000546s ]
+[2020-10-30 17:23:56][sql] CONNECT:[ UseTime:0.000420s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:56][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.001443s ]
+[2020-10-30 17:23:56][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.001247s ]
+[2020-10-30 17:23:56][sql] CONNECT:[ UseTime:0.000556s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:56][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.001182s ]
+[2020-10-30 17:23:56][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.000581s ]
+[2020-10-30 17:23:56][sql] CONNECT:[ UseTime:0.000450s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:56][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.001345s ]
+[2020-10-30 17:23:56][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.001015s ]
+[2020-10-30 17:23:57][sql] CONNECT:[ UseTime:0.007839s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:57][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.001322s ]
+[2020-10-30 17:23:57][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.002151s ]
+[2020-10-30 17:23:57][sql] CONNECT:[ UseTime:0.000409s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:57][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.001125s ]
+[2020-10-30 17:23:57][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.001181s ]
+[2020-10-30 17:23:57][sql] CONNECT:[ UseTime:0.001492s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:57][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.002370s ]
+[2020-10-30 17:23:57][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.001198s ]
+[2020-10-30 17:23:57][sql] CONNECT:[ UseTime:0.000424s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:57][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.001052s ]
+[2020-10-30 17:23:57][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.001178s ]
+[2020-10-30 17:23:57][sql] CONNECT:[ UseTime:0.001076s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:57][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.001809s ]
+[2020-10-30 17:23:57][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.001413s ]
+[2020-10-30 17:23:58][sql] CONNECT:[ UseTime:0.001950s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:23:58][sql] SHOW FULL COLUMNS FROM `system_queue` [ RunTime:0.002690s ]
+[2020-10-30 17:23:58][sql] SELECT * FROM `system_queue` WHERE  `code` = 'Q202010304051345' LIMIT 1 [ RunTime:0.002166s ]
+[2020-10-30 17:24:03][sql] CONNECT:[ UseTime:0.000398s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:24:03][sql] SHOW FULL COLUMNS FROM `system_oplog` [ RunTime:0.004568s ]
+[2020-10-30 17:24:03][sql] SELECT COUNT(*) AS think_count FROM `system_oplog` [ RunTime:0.008358s ]
+[2020-10-30 17:24:03][sql] SELECT * FROM `system_oplog` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.001344s ]
+[2020-10-30 17:24:05][sql] CONNECT:[ UseTime:0.000506s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:24:05][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.015735s ]
+[2020-10-30 17:24:05][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.002558s ]
+[2020-10-30 17:31:40][sql] CONNECT:[ UseTime:0.001793s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:31:40][sql] SELECT VERSION() [ RunTime:0.003555s ]
+[2020-10-30 17:33:14][sql] CONNECT:[ UseTime:0.001892s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:33:14][sql] SELECT VERSION() [ RunTime:0.002115s ]
+[2020-10-30 17:33:34][sql] CONNECT:[ UseTime:0.002865s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:33:34][sql] SELECT VERSION() [ RunTime:0.000328s ]
+[2020-10-30 17:33:36][sql] CONNECT:[ UseTime:0.001541s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:33:36][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.015919s ]
+[2020-10-30 17:33:36][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.028212s ]
+[2020-10-30 17:33:39][sql] CONNECT:[ UseTime:0.002513s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:33:39][sql] SHOW FULL COLUMNS FROM `system_auth` [ RunTime:0.002176s ]
+[2020-10-30 17:33:39][sql] SELECT COUNT(*) AS think_count FROM `system_auth` [ RunTime:0.004618s ]
+[2020-10-30 17:33:39][sql] SELECT * FROM `system_auth` ORDER BY `sort` DESC,`id` DESC LIMIT 0,20 [ RunTime:0.001289s ]
+[2020-10-30 17:33:41][sql] CONNECT:[ UseTime:0.000554s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:33:41][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001804s ]
+[2020-10-30 17:33:41][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.001901s ]
+[2020-10-30 17:34:09][sql] CONNECT:[ UseTime:0.000481s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:34:09][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.004587s ]
+[2020-10-30 17:34:09][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.013995s ]
+[2020-10-30 17:34:22][sql] CONNECT:[ UseTime:0.000415s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:34:22][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001507s ]
+[2020-10-30 17:34:22][sql] SELECT * FROM `system_menu` ORDER BY `sort` DESC [ RunTime:0.002538s ]
+[2020-10-30 17:36:14][sql] CONNECT:[ UseTime:0.001505s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:36:14][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.002460s ]
+[2020-10-30 17:36:14][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.001342s ]
+[2020-10-30 17:36:14][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001638s ]
+[2020-10-30 17:36:14][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.005018s ]
+[2020-10-30 17:37:45][sql] CONNECT:[ UseTime:0.030112s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:37:45][sql] SELECT VERSION() [ RunTime:0.014447s ]
+[2020-10-30 18:07:11][sql] CONNECT:[ UseTime:0.083277s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 18:07:11][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.079219s ]
+[2020-10-30 18:07:11][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.029846s ]
+[2020-10-30 18:07:11][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.041196s ]
+[2020-10-30 18:07:11][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.032762s ]
+[2020-10-30 18:52:16][sql] CONNECT:[ UseTime:0.074331s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 18:52:16][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.092160s ]
+[2020-10-30 18:52:16][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.032336s ]
+[2020-10-30 18:52:16][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.012864s ]
+[2020-10-30 18:52:16][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.023283s ]
+[2020-10-30 18:53:02][sql] CONNECT:[ UseTime:0.044899s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 18:53:02][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.081435s ]
+[2020-10-30 18:53:02][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.029666s ]
+[2020-10-30 18:53:02][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.002257s ]
+[2020-10-30 18:53:02][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.006752s ]
+[2020-10-30 18:56:53][sql] CONNECT:[ UseTime:0.040341s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 18:56:53][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.045425s ]
+[2020-10-30 18:56:53][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.018972s ]
+[2020-10-30 18:56:53][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.005918s ]
+[2020-10-30 18:56:53][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.018099s ]
+[2020-10-30 19:10:21][sql] CONNECT:[ UseTime:0.146211s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:10:21][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.108992s ]
+[2020-10-30 19:10:21][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.055157s ]
+[2020-10-30 19:10:21][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.009447s ]
+[2020-10-30 19:10:21][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.035494s ]
+[2020-10-30 19:28:37][sql] CONNECT:[ UseTime:0.025917s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:28:37][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.043015s ]
+[2020-10-30 19:28:37][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.052502s ]
+[2020-10-30 19:28:37][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.011428s ]
+[2020-10-30 19:28:37][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.056508s ]
+[2020-10-30 19:36:16][sql] CONNECT:[ UseTime:0.101521s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:36:16][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.171452s ]
+[2020-10-30 19:36:16][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.034338s ]
+[2020-10-30 19:36:16][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.009595s ]
+[2020-10-30 19:36:16][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.018881s ]
+[2020-10-30 19:40:43][sql] CONNECT:[ UseTime:0.070028s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:40:43][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.028189s ]
+[2020-10-30 19:40:43][sql] SELECT * FROM `system_user` WHERE  `username` = 'admin'  AND `is_deleted` = 0 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.032526s ]
+[2020-10-30 19:40:43][sql] UPDATE `system_user`  SET `login_ip` = '127.0.0.1' , `login_at` = now() , `login_num` = login_num+1  WHERE  `id` = 10000 [ RunTime:0.021506s ]
+[2020-10-30 19:40:43][sql] SHOW FULL COLUMNS FROM `system_oplog` [ RunTime:0.013553s ]
+[2020-10-30 19:40:43][sql] INSERT INTO `system_oplog` SET `node` = 'admin/login/index' , `action` = '用户登录' , `content` = '登录系统后台成功' , `geoip` = '127.0.0.1' , `username` = 'admin' [ RunTime:0.040681s ]
+[2020-10-30 19:40:44][sql] CONNECT:[ UseTime:0.001769s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:40:44][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.005821s ]
+[2020-10-30 19:40:44][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.013560s ]
+[2020-10-30 19:40:44][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.007069s ]
+[2020-10-30 19:40:44][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.016102s ]
+[2020-10-30 20:36:50][sql] CONNECT:[ UseTime:0.080468s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 20:36:50][sql] SELECT VERSION() [ RunTime:0.035927s ]
+[2020-10-30 20:36:51][sql] CONNECT:[ UseTime:0.000437s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 20:36:51][sql] SHOW FULL COLUMNS FROM `system_oplog` [ RunTime:0.063469s ]
+[2020-10-30 20:36:51][sql] SELECT COUNT(*) AS think_count FROM `system_oplog` [ RunTime:0.020676s ]
+[2020-10-30 20:36:51][sql] SELECT * FROM `system_oplog` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.009217s ]
+[2020-10-30 20:52:21][sql] CONNECT:[ UseTime:0.000486s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 20:52:21][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.016108s ]
+[2020-10-30 20:52:21][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.022944s ]
+[2020-10-30 20:52:21][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.010168s ]
+[2020-10-30 20:52:21][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.024818s ]
+[2020-10-31 12:28:25][sql] CONNECT:[ UseTime:0.124579s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 12:28:25][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.142448s ]
+[2020-10-31 12:28:25][sql] SELECT * FROM `system_user` WHERE  `username` = 'admin'  AND `is_deleted` = 0 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.049599s ]
+[2020-10-31 12:28:25][sql] UPDATE `system_user`  SET `login_ip` = '127.0.0.1' , `login_at` = now() , `login_num` = login_num+1  WHERE  `id` = 10000 [ RunTime:0.090822s ]
+[2020-10-31 12:28:25][sql] SHOW FULL COLUMNS FROM `system_oplog` [ RunTime:0.094887s ]
+[2020-10-31 12:28:25][sql] INSERT INTO `system_oplog` SET `node` = 'admin/login/index' , `action` = '用户登录' , `content` = '登录系统后台成功' , `geoip` = '127.0.0.1' , `username` = 'admin' [ RunTime:0.040289s ]
+[2020-10-31 12:28:26][sql] CONNECT:[ UseTime:0.000534s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 12:28:26][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.004918s ]
+[2020-10-31 12:28:26][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.001989s ]
+[2020-10-31 12:28:26][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.012716s ]
+[2020-10-31 12:28:26][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.024471s ]
+[2020-10-31 12:48:41][sql] CONNECT:[ UseTime:0.194433s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 12:48:41][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.064318s ]
+[2020-10-31 12:48:41][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.046746s ]
+[2020-10-31 12:48:41][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.010965s ]
+[2020-10-31 12:48:41][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.046214s ]
+[2020-10-31 13:03:33][sql] CONNECT:[ UseTime:0.040062s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 13:03:33][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.042892s ]
+[2020-10-31 13:03:33][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.019911s ]
+[2020-10-31 13:03:33][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.007812s ]
+[2020-10-31 13:03:33][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.021415s ]
+[2020-10-31 16:06:03][sql] CONNECT:[ UseTime:0.027083s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 16:06:03][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.026025s ]
+[2020-10-31 16:06:03][sql] SELECT * FROM `system_user` WHERE  `username` = 'admin'  AND `is_deleted` = 0 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.027395s ]
+[2020-10-31 16:06:03][sql] UPDATE `system_user`  SET `login_ip` = '127.0.0.1' , `login_at` = now() , `login_num` = login_num+1  WHERE  `id` = 10000 [ RunTime:0.035430s ]
+[2020-10-31 16:06:03][sql] SHOW FULL COLUMNS FROM `system_oplog` [ RunTime:0.001079s ]
+[2020-10-31 16:06:03][sql] INSERT INTO `system_oplog` SET `node` = 'admin/login/index' , `action` = '用户登录' , `content` = '登录系统后台成功' , `geoip` = '127.0.0.1' , `username` = 'admin' [ RunTime:0.024504s ]
+[2020-10-31 16:06:04][sql] CONNECT:[ UseTime:0.000469s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 16:06:04][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.002857s ]
+[2020-10-31 16:06:04][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.003001s ]
+[2020-10-31 16:06:04][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001093s ]
+[2020-10-31 16:06:04][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.015925s ]
+[2020-10-31 16:08:08][sql] CONNECT:[ UseTime:0.001082s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 16:08:08][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.007475s ]
+[2020-10-31 16:08:08][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.006110s ]
+[2020-10-31 16:08:08][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.001188s ]
+[2020-10-31 16:08:08][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.009976s ]
+[2020-10-31 16:49:04][sql] CONNECT:[ UseTime:0.015270s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 16:49:04][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.036789s ]
+[2020-10-31 16:49:04][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.011153s ]
+[2020-10-31 16:49:04][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.004132s ]
+[2020-10-31 16:49:04][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.024420s ]
+[2020-11-01 10:34:18][sql] CONNECT:[ UseTime:0.185114s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-11-01 10:34:18][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.125031s ]
+[2020-11-01 10:34:18][sql] SELECT * FROM `system_user` WHERE  `username` = 'admin'  AND `is_deleted` = 0 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.050985s ]
+[2020-11-01 10:34:18][sql] UPDATE `system_user`  SET `login_ip` = '127.0.0.1' , `login_at` = now() , `login_num` = login_num+1  WHERE  `id` = 10000 [ RunTime:0.081311s ]
+[2020-11-01 10:34:18][sql] SHOW FULL COLUMNS FROM `system_oplog` [ RunTime:0.041863s ]
+[2020-11-01 10:34:18][sql] INSERT INTO `system_oplog` SET `node` = 'admin/login/index' , `action` = '用户登录' , `content` = '登录系统后台成功' , `geoip` = '127.0.0.1' , `username` = 'admin' [ RunTime:0.029207s ]
+[2020-11-01 10:34:18][sql] CONNECT:[ UseTime:0.000556s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-11-01 10:34:18][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.007329s ]
+[2020-11-01 10:34:18][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.032194s ]
+[2020-11-01 10:34:18][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.029453s ]
+[2020-11-01 10:34:18][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.013624s ]
+[2020-11-02 14:29:14][sql] CONNECT:[ UseTime:0.003725s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-11-02 14:29:14][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.010177s ]
+[2020-11-02 14:29:14][sql] SELECT * FROM `system_user` WHERE  `username` = 'admin'  AND `is_deleted` = 0 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.009616s ]
+[2020-11-02 14:29:14][sql] UPDATE `system_user`  SET `login_ip` = '127.0.0.1' , `login_at` = now() , `login_num` = login_num+1  WHERE  `id` = 10000 [ RunTime:0.023160s ]
+[2020-11-02 14:29:14][sql] SHOW FULL COLUMNS FROM `system_oplog` [ RunTime:0.005645s ]
+[2020-11-02 14:29:14][sql] INSERT INTO `system_oplog` SET `node` = 'admin/login/index' , `action` = '用户登录' , `content` = '登录系统后台成功' , `geoip` = '127.0.0.1' , `username` = 'admin' [ RunTime:0.002181s ]
+[2020-11-02 14:29:14][sql] CONNECT:[ UseTime:0.001771s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-11-02 14:29:14][sql] SHOW FULL COLUMNS FROM `system_user` [ RunTime:0.001092s ]
+[2020-11-02 14:29:14][sql] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.001240s ]
+[2020-11-02 14:29:14][sql] SHOW FULL COLUMNS FROM `system_menu` [ RunTime:0.003487s ]
+[2020-11-02 14:29:14][sql] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` DESC,`id` ASC [ RunTime:0.000712s ]

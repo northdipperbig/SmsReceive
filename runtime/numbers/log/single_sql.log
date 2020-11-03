@@ -1,0 +1,1207 @@
+[2020-10-29 18:06:27][sql] CONNECT:[ UseTime:0.289040s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:06:27][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.504682s ]
+[2020-10-29 18:06:27][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.021056s ]
+[2020-10-29 18:06:27][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.002883s ]
+[2020-10-29 18:12:17][sql] CONNECT:[ UseTime:0.000468s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:12:17][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.003899s ]
+[2020-10-29 18:12:17][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.001630s ]
+[2020-10-29 18:12:17][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.001551s ]
+[2020-10-29 18:13:09][sql] CONNECT:[ UseTime:0.010802s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:13:09][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.012655s ]
+[2020-10-29 18:13:09][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.004246s ]
+[2020-10-29 18:13:09][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.001871s ]
+[2020-10-29 18:18:51][sql] CONNECT:[ UseTime:0.000393s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:18:51][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001051s ]
+[2020-10-29 18:18:51][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.000432s ]
+[2020-10-29 18:18:51][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.000295s ]
+[2020-10-29 18:21:10][sql] CONNECT:[ UseTime:0.038343s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:21:10][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.027923s ]
+[2020-10-29 18:21:10][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.015964s ]
+[2020-10-29 18:21:10][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.002411s ]
+[2020-10-29 18:21:26][sql] CONNECT:[ UseTime:0.000446s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:21:26][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.002807s ]
+[2020-10-29 18:21:26][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.000467s ]
+[2020-10-29 18:21:26][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.000414s ]
+[2020-10-29 18:23:09][sql] CONNECT:[ UseTime:0.000532s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:23:09][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001999s ]
+[2020-10-29 18:23:09][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.000451s ]
+[2020-10-29 18:23:09][sql] SELECT * FROM `phone_devices` LIMIT 0,30 [ RunTime:0.000290s ]
+[2020-10-29 18:23:11][sql] CONNECT:[ UseTime:0.000460s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:23:11][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001750s ]
+[2020-10-29 18:23:11][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.001555s ]
+[2020-10-29 18:23:11][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.000525s ]
+[2020-10-29 18:24:10][sql] CONNECT:[ UseTime:0.001569s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:24:10][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.003850s ]
+[2020-10-29 18:24:10][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.000493s ]
+[2020-10-29 18:24:10][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.000324s ]
+[2020-10-29 18:24:13][sql] CONNECT:[ UseTime:0.000394s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:24:13][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001610s ]
+[2020-10-29 18:24:13][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.001587s ]
+[2020-10-29 18:24:13][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.000422s ]
+[2020-10-29 18:24:33][sql] CONNECT:[ UseTime:0.002189s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:24:33][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001569s ]
+[2020-10-29 18:24:33][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.001589s ]
+[2020-10-29 18:24:33][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.000737s ]
+[2020-10-29 18:31:02][sql] CONNECT:[ UseTime:0.046262s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:31:02][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.053973s ]
+[2020-10-29 18:31:02][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.014334s ]
+[2020-10-29 18:31:02][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.001994s ]
+[2020-10-29 18:31:50][sql] CONNECT:[ UseTime:0.001641s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:31:50][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.004397s ]
+[2020-10-29 18:31:50][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.000410s ]
+[2020-10-29 18:31:50][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.000366s ]
+[2020-10-29 18:38:55][sql] CONNECT:[ UseTime:0.033979s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:39:22][sql] CONNECT:[ UseTime:0.001193s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:39:22][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.010368s ]
+[2020-10-29 18:39:22][sql] SELECT `states`,`deviceid` FROM `phone_devices` WHERE  `id` = 1 [ RunTime:0.006190s ]
+[2020-10-29 18:40:28][sql] CONNECT:[ UseTime:0.002508s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:40:28][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001007s ]
+[2020-10-29 18:40:28][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.003890s ]
+[2020-10-29 18:40:28][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.000383s ]
+[2020-10-29 18:40:30][sql] CONNECT:[ UseTime:0.001574s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:40:30][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.002641s ]
+[2020-10-29 18:40:30][sql] SELECT `states`,`deviceid` FROM `phone_devices` WHERE  `id` = 1 [ RunTime:0.000450s ]
+[2020-10-29 18:40:45][sql] CONNECT:[ UseTime:0.000413s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:40:45][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001479s ]
+[2020-10-29 18:40:45][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.001463s ]
+[2020-10-29 18:40:45][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.000464s ]
+[2020-10-29 18:40:58][sql] CONNECT:[ UseTime:0.000495s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:40:58][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.004040s ]
+[2020-10-29 18:40:58][sql] SELECT `states`,`deviceid` FROM `phone_devices` WHERE  `id` = 1 [ RunTime:0.000904s ]
+[2020-10-29 18:41:30][sql] CONNECT:[ UseTime:0.000893s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:41:30][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.002694s ]
+[2020-10-29 18:41:30][sql] SELECT `states`,`deviceid` FROM `phone_devices` WHERE  `id` = 1 [ RunTime:0.003431s ]
+[2020-10-29 18:41:32][sql] CONNECT:[ UseTime:0.000724s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:41:32][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001328s ]
+[2020-10-29 18:41:32][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.000996s ]
+[2020-10-29 18:41:32][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.002608s ]
+[2020-10-29 18:41:51][sql] CONNECT:[ UseTime:0.001613s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:41:51][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001959s ]
+[2020-10-29 18:41:51][sql] SELECT `states`,`deviceid` FROM `phone_devices` WHERE  `id` = 1 [ RunTime:0.000417s ]
+[2020-10-29 18:41:54][sql] CONNECT:[ UseTime:0.001548s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:41:54][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001919s ]
+[2020-10-29 18:41:54][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.001519s ]
+[2020-10-29 18:41:54][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.000344s ]
+[2020-10-29 18:42:01][sql] CONNECT:[ UseTime:0.002520s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:42:01][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.002694s ]
+[2020-10-29 18:42:01][sql] SELECT `states`,`deviceid` FROM `phone_devices` WHERE  `id` = 1 [ RunTime:0.000774s ]
+[2020-10-29 18:42:47][sql] CONNECT:[ UseTime:0.000431s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:42:47][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.003583s ]
+[2020-10-29 18:42:47][sql] SELECT `states`,`deviceid` FROM `phone_devices` WHERE  `id` = 1 [ RunTime:0.000464s ]
+[2020-10-29 18:43:44][sql] CONNECT:[ UseTime:0.001340s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:43:44][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.003010s ]
+[2020-10-29 18:43:44][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.000510s ]
+[2020-10-29 18:43:44][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.000311s ]
+[2020-10-29 18:43:45][sql] CONNECT:[ UseTime:0.000462s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:43:45][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001463s ]
+[2020-10-29 18:43:45][sql] SELECT `deviceid`,`states` FROM `phone_devices` WHERE  `id` = 1 [ RunTime:0.001148s ]
+[2020-10-29 18:44:51][sql] CONNECT:[ UseTime:0.030964s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:44:51][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.013199s ]
+[2020-10-29 18:44:51][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.001053s ]
+[2020-10-29 18:44:51][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.000366s ]
+[2020-10-29 18:44:56][sql] CONNECT:[ UseTime:0.002552s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:44:56][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.007793s ]
+[2020-10-29 18:44:56][sql] SELECT `authorization`,`id` FROM `phone_devices` WHERE  `id` = 1 [ RunTime:0.002665s ]
+[2020-10-29 18:45:07][sql] CONNECT:[ UseTime:0.002426s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:45:07][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.002837s ]
+[2020-10-29 18:45:07][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.002603s ]
+[2020-10-29 18:45:07][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.000523s ]
+[2020-10-29 18:52:14][sql] CONNECT:[ UseTime:0.065563s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:52:14][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.047956s ]
+[2020-10-29 18:52:14][sql] SELECT `authorization`,`id` FROM `phone_devices` WHERE  `id` = 1 [ RunTime:0.019288s ]
+[2020-10-29 18:52:50][sql] CONNECT:[ UseTime:0.001529s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:52:50][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001253s ]
+[2020-10-29 18:52:50][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.017836s ]
+[2020-10-29 18:52:50][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.001010s ]
+[2020-10-29 18:52:51][sql] CONNECT:[ UseTime:0.002810s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:52:51][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001133s ]
+[2020-10-29 18:52:51][sql] SELECT * FROM `phone_devices` WHERE  `id` = 1 [ RunTime:0.003178s ]
+[2020-10-29 18:53:53][sql] CONNECT:[ UseTime:0.000625s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:53:53][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001699s ]
+[2020-10-29 18:53:53][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.001914s ]
+[2020-10-29 18:53:53][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.003800s ]
+[2020-10-29 18:53:55][sql] CONNECT:[ UseTime:0.000674s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:53:55][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.003233s ]
+[2020-10-29 18:53:55][sql] SELECT * FROM `phone_devices` WHERE  `id` = 1 [ RunTime:0.000581s ]
+[2020-10-29 18:55:37][sql] CONNECT:[ UseTime:0.001105s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:55:37][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001541s ]
+[2020-10-29 18:55:37][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.000473s ]
+[2020-10-29 18:55:37][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.002092s ]
+[2020-10-29 18:55:39][sql] CONNECT:[ UseTime:0.002602s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:55:39][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001774s ]
+[2020-10-29 18:55:39][sql] SELECT * FROM `phone_devices` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001100s ]
+[2020-10-29 18:55:54][sql] CONNECT:[ UseTime:0.002671s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:55:54][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001738s ]
+[2020-10-29 18:55:54][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.001287s ]
+[2020-10-29 18:55:54][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.000657s ]
+[2020-10-29 18:55:56][sql] CONNECT:[ UseTime:0.002203s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:55:56][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001222s ]
+[2020-10-29 18:55:56][sql] SELECT * FROM `phone_devices` WHERE  `id` = 1  AND `id` = states LIMIT 1 [ RunTime:0.006360s ]
+[2020-10-29 18:56:01][sql] CONNECT:[ UseTime:0.001060s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 18:56:01][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001772s ]
+[2020-10-29 18:56:01][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.001235s ]
+[2020-10-29 18:56:01][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.000838s ]
+[2020-10-29 19:00:12][sql] CONNECT:[ UseTime:0.000675s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 19:00:12][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.002488s ]
+[2020-10-29 19:00:12][sql] SELECT * FROM `phone_devices` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.004536s ]
+[2020-10-29 19:00:12][sql] UPDATE `phone_devices`  SET `states` = 1  WHERE  `id` = 1 [ RunTime:0.046154s ]
+[2020-10-29 19:00:14][sql] CONNECT:[ UseTime:0.000479s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 19:00:14][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.002137s ]
+[2020-10-29 19:00:14][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.001083s ]
+[2020-10-29 19:00:14][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.000443s ]
+[2020-10-29 19:00:17][sql] CONNECT:[ UseTime:0.000452s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 19:00:17][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001582s ]
+[2020-10-29 19:00:17][sql] SELECT * FROM `phone_devices` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002485s ]
+[2020-10-29 19:00:26][sql] CONNECT:[ UseTime:0.001179s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 19:00:26][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001338s ]
+[2020-10-29 19:00:26][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.001312s ]
+[2020-10-29 19:00:26][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.001852s ]
+[2020-10-29 19:00:41][sql] CONNECT:[ UseTime:0.000403s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 19:00:41][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001895s ]
+[2020-10-29 19:00:41][sql] SELECT * FROM `phone_devices` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001504s ]
+[2020-10-29 19:00:41][sql] UPDATE `phone_devices`  SET `states` = 0  WHERE  `id` = 1 [ RunTime:0.002014s ]
+[2020-10-29 19:00:43][sql] CONNECT:[ UseTime:0.002169s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 19:00:43][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.002418s ]
+[2020-10-29 19:00:43][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.001147s ]
+[2020-10-29 19:00:43][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.000342s ]
+[2020-10-29 19:02:36][sql] CONNECT:[ UseTime:0.000590s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 19:02:36][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.002944s ]
+[2020-10-29 19:02:36][sql] SELECT * FROM `phone_devices` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000499s ]
+[2020-10-29 19:03:07][sql] CONNECT:[ UseTime:0.002035s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 19:03:07][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001141s ]
+[2020-10-29 19:03:07][sql] SELECT * FROM `phone_devices` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000565s ]
+[2020-10-29 19:06:26][sql] CONNECT:[ UseTime:0.031053s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 19:06:26][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.012941s ]
+[2020-10-29 19:06:26][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.010119s ]
+[2020-10-29 19:06:26][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.000919s ]
+[2020-10-29 22:08:56][sql] CONNECT:[ UseTime:0.096640s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 22:08:56][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.083101s ]
+[2020-10-29 22:08:56][sql] SELECT * FROM `phone_devices` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.029457s ]
+[2020-10-29 22:08:56][sql] UPDATE `phone_devices`  SET `authorization` = 1  WHERE  `id` = 1 [ RunTime:0.028509s ]
+[2020-10-29 22:09:16][sql] CONNECT:[ UseTime:0.000419s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 22:09:16][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001735s ]
+[2020-10-29 22:09:16][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.002297s ]
+[2020-10-29 22:09:16][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.000444s ]
+[2020-10-29 22:10:09][sql] CONNECT:[ UseTime:0.001135s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 22:10:09][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001388s ]
+[2020-10-29 22:10:09][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.001784s ]
+[2020-10-29 22:10:09][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.001071s ]
+[2020-10-29 22:11:01][sql] CONNECT:[ UseTime:0.001792s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 22:11:01][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001166s ]
+[2020-10-29 22:11:01][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.002882s ]
+[2020-10-29 22:11:01][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.001616s ]
+[2020-10-29 22:11:32][sql] CONNECT:[ UseTime:0.000891s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 22:11:32][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.002137s ]
+[2020-10-29 22:11:32][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.001099s ]
+[2020-10-29 22:11:32][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.000358s ]
+[2020-10-29 22:11:35][sql] CONNECT:[ UseTime:0.000485s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 22:11:35][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.002586s ]
+[2020-10-29 22:11:35][sql] SELECT * FROM `phone_devices` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.034187s ]
+[2020-10-29 22:11:35][sql] UPDATE `phone_devices`  SET `authorization` = 0  WHERE  `id` = 1 [ RunTime:0.053082s ]
+[2020-10-29 22:11:37][sql] CONNECT:[ UseTime:0.000446s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 22:11:37][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001030s ]
+[2020-10-29 22:11:37][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.000406s ]
+[2020-10-29 22:11:37][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.000316s ]
+[2020-10-29 22:11:42][sql] CONNECT:[ UseTime:0.001634s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 22:11:42][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.002686s ]
+[2020-10-29 22:11:42][sql] SELECT * FROM `phone_devices` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001206s ]
+[2020-10-29 22:11:42][sql] UPDATE `phone_devices`  SET `authorization` = 1  WHERE  `id` = 1 [ RunTime:0.004561s ]
+[2020-10-29 22:11:44][sql] CONNECT:[ UseTime:0.000785s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 22:11:44][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.003241s ]
+[2020-10-29 22:11:44][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.002493s ]
+[2020-10-29 22:11:44][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.001592s ]
+[2020-10-29 22:11:46][sql] CONNECT:[ UseTime:0.001714s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 22:11:46][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.005144s ]
+[2020-10-29 22:11:46][sql] SELECT * FROM `phone_devices` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.004864s ]
+[2020-10-29 22:11:46][sql] UPDATE `phone_devices`  SET `states` = 1  WHERE  `id` = 1 [ RunTime:0.003094s ]
+[2020-10-29 22:11:48][sql] CONNECT:[ UseTime:0.001811s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 22:11:48][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.002915s ]
+[2020-10-29 22:11:48][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.001231s ]
+[2020-10-29 22:11:48][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.003267s ]
+[2020-10-29 22:14:45][sql] CONNECT:[ UseTime:0.001437s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 22:14:45][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001764s ]
+[2020-10-29 22:15:19][sql] CONNECT:[ UseTime:0.001665s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 22:15:19][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001380s ]
+[2020-10-29 22:15:19][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.000512s ]
+[2020-10-29 22:15:19][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.001082s ]
+[2020-10-29 22:15:33][sql] CONNECT:[ UseTime:0.001927s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 22:15:33][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001882s ]
+[2020-10-29 22:15:33][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.004965s ]
+[2020-10-29 22:15:33][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.001462s ]
+[2020-10-29 22:15:40][sql] CONNECT:[ UseTime:0.000696s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 22:15:40][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001119s ]
+[2020-10-29 22:15:40][sql] DELETE FROM `phone_devices` WHERE  `id` = 1 [ RunTime:0.010762s ]
+[2020-10-29 22:15:43][sql] CONNECT:[ UseTime:0.000416s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-29 22:15:43][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.002105s ]
+[2020-10-29 22:15:43][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.001356s ]
+[2020-10-29 22:15:43][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.002755s ]
+[2020-10-30 09:56:49][sql] CONNECT:[ UseTime:0.000732s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 09:56:49][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.021398s ]
+[2020-10-30 09:56:49][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.004868s ]
+[2020-10-30 09:56:49][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.001671s ]
+[2020-10-30 10:21:25][sql] CONNECT:[ UseTime:0.059349s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:21:25][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.057277s ]
+[2020-10-30 10:21:25][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.017564s ]
+[2020-10-30 10:21:25][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.001629s ]
+[2020-10-30 10:21:27][sql] CONNECT:[ UseTime:0.002524s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:21:27][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001163s ]
+[2020-10-30 10:21:27][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.002044s ]
+[2020-10-30 10:21:27][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.002427s ]
+[2020-10-30 10:27:03][sql] CONNECT:[ UseTime:0.067220s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:27:03][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.058493s ]
+[2020-10-30 10:27:03][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.023370s ]
+[2020-10-30 10:27:03][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.001366s ]
+[2020-10-30 10:28:24][sql] CONNECT:[ UseTime:0.020328s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:28:24][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.017730s ]
+[2020-10-30 10:28:24][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.003237s ]
+[2020-10-30 10:28:24][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.001729s ]
+[2020-10-30 10:28:32][sql] CONNECT:[ UseTime:0.001411s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:28:32][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.002262s ]
+[2020-10-30 10:28:32][sql] SELECT * FROM `phone_devices` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.010403s ]
+[2020-10-30 10:28:32][sql] UPDATE `phone_devices`  SET `authorization` = 1  WHERE  `id` = 2 [ RunTime:0.015236s ]
+[2020-10-30 10:28:35][sql] CONNECT:[ UseTime:0.002518s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:28:35][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.004707s ]
+[2020-10-30 10:28:35][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.001505s ]
+[2020-10-30 10:28:35][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.001190s ]
+[2020-10-30 10:28:52][sql] CONNECT:[ UseTime:0.001156s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:28:52][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.005241s ]
+[2020-10-30 10:28:52][sql] SELECT * FROM `phone_devices` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000687s ]
+[2020-10-30 10:28:52][sql] UPDATE `phone_devices`  SET `authorization` = 0  WHERE  `id` = 2 [ RunTime:0.017691s ]
+[2020-10-30 10:28:55][sql] CONNECT:[ UseTime:0.002581s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:28:55][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.003241s ]
+[2020-10-30 10:28:55][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.001161s ]
+[2020-10-30 10:28:55][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.000775s ]
+[2020-10-30 10:36:22][sql] CONNECT:[ UseTime:0.048500s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:36:22][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.038792s ]
+[2020-10-30 10:36:22][sql] SELECT * FROM `phone_devices` WHERE  `deviceid` = 'bbbbbbbbbbbbbbbb' LIMIT 1 [ RunTime:0.016624s ]
+[2020-10-30 10:36:38][sql] CONNECT:[ UseTime:0.002508s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:36:38][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001438s ]
+[2020-10-30 10:36:38][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.004459s ]
+[2020-10-30 10:36:38][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.000409s ]
+[2020-10-30 10:36:55][sql] CONNECT:[ UseTime:0.000537s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:36:55][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001763s ]
+[2020-10-30 10:36:55][sql] SELECT * FROM `phone_devices` WHERE  `deviceid` = 'bbbbbbbbbbbbbbbb' LIMIT 1 [ RunTime:0.000693s ]
+[2020-10-30 10:40:09][sql] CONNECT:[ UseTime:0.059527s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:40:09][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.041738s ]
+[2020-10-30 10:40:09][sql] SELECT * FROM `phone_devices` WHERE  `deviceid` = 'bbbbbbbbbbbbbbbb' LIMIT 1 [ RunTime:0.027121s ]
+[2020-10-30 10:44:31][sql] CONNECT:[ UseTime:0.048811s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:44:31][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.058178s ]
+[2020-10-30 10:44:31][sql] SELECT * FROM `phone_devices` WHERE  `deviceid` = 'bbbbbbbbbbbbbbbb' LIMIT 1 [ RunTime:0.015264s ]
+[2020-10-30 10:44:55][sql] CONNECT:[ UseTime:0.000672s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:44:55][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.000998s ]
+[2020-10-30 10:44:55][sql] SELECT * FROM `phone_devices` WHERE  `deviceid` = 'bbbbbbbbbbbbbbbb' LIMIT 1 [ RunTime:0.000996s ]
+[2020-10-30 10:47:49][sql] CONNECT:[ UseTime:0.003936s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:47:49][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.002391s ]
+[2020-10-30 10:47:49][sql] SELECT * FROM `phone_devices` WHERE  `deviceid` = 'bbbbbbbbbbbbbbbb' LIMIT 1 [ RunTime:0.002127s ]
+[2020-10-30 10:48:10][sql] CONNECT:[ UseTime:0.000457s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:48:10][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.000961s ]
+[2020-10-30 10:48:10][sql] SELECT * FROM `phone_devices` WHERE  `deviceid` = 'bbbbbbbbbbbbbbbb' LIMIT 1 [ RunTime:0.001310s ]
+[2020-10-30 10:48:19][sql] CONNECT:[ UseTime:0.000461s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:48:19][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.002147s ]
+[2020-10-30 10:48:19][sql] SELECT * FROM `phone_devices` WHERE  `deviceid` = 'bbbbbbbbbbbbbbbb' LIMIT 1 [ RunTime:0.000665s ]
+[2020-10-30 10:49:48][sql] CONNECT:[ UseTime:0.000748s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:49:48][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.021124s ]
+[2020-10-30 10:49:48][sql] SELECT * FROM `phone_devices` WHERE  `deviceid` = 'bbbbbbbbbbbbbbbb' LIMIT 1 [ RunTime:0.002166s ]
+[2020-10-30 10:53:24][sql] CONNECT:[ UseTime:0.000434s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:53:24][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001865s ]
+[2020-10-30 10:53:24][sql] SELECT * FROM `phone_devices` WHERE  `deviceid` = 'bbbbbbbbbbbbbbbb' LIMIT 1 [ RunTime:0.002096s ]
+[2020-10-30 10:53:32][sql] CONNECT:[ UseTime:0.000753s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:53:32][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.003756s ]
+[2020-10-30 10:53:32][sql] SELECT * FROM `phone_devices` WHERE  `deviceid` = 'bbbbbbbbbbbbbbbb' LIMIT 1 [ RunTime:0.000577s ]
+[2020-10-30 10:53:58][sql] CONNECT:[ UseTime:0.000458s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:53:58][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001211s ]
+[2020-10-30 10:53:58][sql] SELECT * FROM `phone_devices` WHERE  `deviceid` = 'bbbbbbbbbbbbbbbb' LIMIT 1 [ RunTime:0.002042s ]
+[2020-10-30 10:54:15][sql] CONNECT:[ UseTime:0.000476s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:54:15][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001144s ]
+[2020-10-30 10:54:15][sql] SELECT * FROM `phone_devices` WHERE  `deviceid` = 'bbbbbbbbbbbbbbbb' LIMIT 1 [ RunTime:0.001658s ]
+[2020-10-30 10:54:29][sql] CONNECT:[ UseTime:0.001108s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:54:29][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.002482s ]
+[2020-10-30 10:54:29][sql] SELECT * FROM `phone_devices` WHERE  `deviceid` = 'bbbbbbbbbbbbbbbb' LIMIT 1 [ RunTime:0.001912s ]
+[2020-10-30 10:54:29][sql] INSERT INTO `phone_devices` SET `deviceid` = 'bbbbbbbbbbbbbbbb' [ RunTime:0.032615s ]
+[2020-10-30 10:54:34][sql] CONNECT:[ UseTime:0.000613s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:54:34][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001630s ]
+[2020-10-30 10:54:34][sql] SELECT * FROM `phone_devices` WHERE  `deviceid` = 'bbbbbbbbbbbbbbbb' LIMIT 1 [ RunTime:0.002865s ]
+[2020-10-30 10:56:42][sql] CONNECT:[ UseTime:0.032322s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:56:42][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.019532s ]
+[2020-10-30 10:56:42][sql] SELECT * FROM `phone_devices` WHERE  `deviceid` = 'bbbbbbbbbbbbbbbb' LIMIT 1 [ RunTime:0.002955s ]
+[2020-10-30 10:56:46][sql] CONNECT:[ UseTime:0.000427s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:56:46][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001100s ]
+[2020-10-30 10:56:46][sql] SELECT * FROM `phone_devices` WHERE  `deviceid` = 'bbbbbbbbbbbbbbbb' LIMIT 1 [ RunTime:0.000944s ]
+[2020-10-30 10:57:25][sql] CONNECT:[ UseTime:0.028690s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:57:25][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.024283s ]
+[2020-10-30 10:57:25][sql] SELECT * FROM `phone_devices` WHERE  `deviceid` = 'bbbbbbbbbbbbbbbb' LIMIT 1 [ RunTime:0.006356s ]
+[2020-10-30 10:57:30][sql] CONNECT:[ UseTime:0.000586s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:57:30][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001184s ]
+[2020-10-30 10:57:30][sql] SELECT * FROM `phone_devices` WHERE  `deviceid` = 'bbbbbbbbbbbbbbbb' LIMIT 1 [ RunTime:0.000411s ]
+[2020-10-30 10:57:38][sql] CONNECT:[ UseTime:0.000388s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 10:57:38][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.003158s ]
+[2020-10-30 10:57:38][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.004431s ]
+[2020-10-30 10:57:38][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.001898s ]
+[2020-10-30 12:02:49][sql] CONNECT:[ UseTime:0.054202s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:02:49][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.102173s ]
+[2020-10-30 12:02:49][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.057800s ]
+[2020-10-30 12:02:49][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.000917s ]
+[2020-10-30 12:09:41][sql] CONNECT:[ UseTime:0.037677s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:09:41][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.019141s ]
+[2020-10-30 12:09:41][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.009100s ]
+[2020-10-30 12:09:41][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.001282s ]
+[2020-10-30 12:09:44][sql] CONNECT:[ UseTime:0.020164s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:09:44][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002675s ]
+[2020-10-30 12:09:44][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.003563s ]
+[2020-10-30 12:09:44][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.001072s ]
+[2020-10-30 12:10:26][sql] CONNECT:[ UseTime:0.002089s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:10:26][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001162s ]
+[2020-10-30 12:10:26][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.000909s ]
+[2020-10-30 12:10:26][sql] SELECT * FROM `phone_numbers` LIMIT 0,40 [ RunTime:0.002191s ]
+[2020-10-30 12:34:27][sql] CONNECT:[ UseTime:0.056623s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:34:27][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.048092s ]
+[2020-10-30 12:34:27][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.016085s ]
+[2020-10-30 12:34:27][sql] SELECT * FROM `phone_numbers` LIMIT 0,40 [ RunTime:0.002170s ]
+[2020-10-30 12:34:54][sql] CONNECT:[ UseTime:0.002468s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:34:54][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001854s ]
+[2020-10-30 12:34:54][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.000350s ]
+[2020-10-30 12:34:54][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.000692s ]
+[2020-10-30 12:35:11][sql] CONNECT:[ UseTime:0.002271s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:35:11][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002435s ]
+[2020-10-30 12:35:11][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001267s ]
+[2020-10-30 12:35:11][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.001461s ]
+[2020-10-30 12:35:15][sql] CONNECT:[ UseTime:0.006674s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:35:15][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001504s ]
+[2020-10-30 12:35:15][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.002239s ]
+[2020-10-30 12:35:15][sql] SELECT * FROM `phone_numbers` LIMIT 10,10 [ RunTime:0.001027s ]
+[2020-10-30 12:35:17][sql] CONNECT:[ UseTime:0.001827s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:35:17][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.000954s ]
+[2020-10-30 12:35:17][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.002900s ]
+[2020-10-30 12:35:17][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.000908s ]
+[2020-10-30 12:36:10][sql] CONNECT:[ UseTime:0.020887s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:36:10][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.026709s ]
+[2020-10-30 12:36:10][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.005444s ]
+[2020-10-30 12:36:10][sql] SELECT * FROM `phone_numbers` LIMIT 10,10 [ RunTime:0.003403s ]
+[2020-10-30 12:41:31][sql] CONNECT:[ UseTime:0.046700s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:41:31][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.051051s ]
+[2020-10-30 12:41:31][sql] DELETE FROM `phone_numbers` WHERE  `id` IN (12,13,14) [ RunTime:0.029520s ]
+[2020-10-30 12:41:34][sql] CONNECT:[ UseTime:0.000450s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:41:34][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.019521s ]
+[2020-10-30 12:41:34][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.004249s ]
+[2020-10-30 12:41:34][sql] SELECT * FROM `phone_numbers` LIMIT 10,10 [ RunTime:0.000724s ]
+[2020-10-30 12:45:34][sql] CONNECT:[ UseTime:0.019594s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:45:34][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.028866s ]
+[2020-10-30 12:45:34][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.007746s ]
+[2020-10-30 12:45:34][sql] SELECT * FROM `phone_devices` LIMIT 0,10 [ RunTime:0.001192s ]
+[2020-10-30 12:45:35][sql] CONNECT:[ UseTime:0.002104s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:45:35][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001062s ]
+[2020-10-30 12:45:35][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.000445s ]
+[2020-10-30 12:45:35][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.001312s ]
+[2020-10-30 12:46:22][sql] CONNECT:[ UseTime:0.001437s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:46:22][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.005114s ]
+[2020-10-30 12:46:22][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001621s ]
+[2020-10-30 12:46:22][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.000341s ]
+[2020-10-30 12:46:48][sql] CONNECT:[ UseTime:0.005188s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:46:48][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.000932s ]
+[2020-10-30 12:46:48][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001121s ]
+[2020-10-30 12:46:48][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.000682s ]
+[2020-10-30 12:47:09][sql] CONNECT:[ UseTime:0.001117s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:47:09][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.000964s ]
+[2020-10-30 12:47:09][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.000717s ]
+[2020-10-30 12:47:09][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.002365s ]
+[2020-10-30 12:47:38][sql] CONNECT:[ UseTime:0.001826s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:47:38][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001093s ]
+[2020-10-30 12:47:38][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001370s ]
+[2020-10-30 12:47:38][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.000813s ]
+[2020-10-30 12:47:58][sql] CONNECT:[ UseTime:0.001597s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:47:58][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001938s ]
+[2020-10-30 12:47:58][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001624s ]
+[2020-10-30 12:47:58][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.002003s ]
+[2020-10-30 12:48:39][sql] CONNECT:[ UseTime:0.001833s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:48:39][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001893s ]
+[2020-10-30 12:48:39][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001054s ]
+[2020-10-30 12:48:39][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.000987s ]
+[2020-10-30 12:48:43][sql] CONNECT:[ UseTime:0.001513s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:48:43][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.005152s ]
+[2020-10-30 12:48:43][sql] DELETE FROM `phone_numbers` WHERE  `id` = 1 [ RunTime:0.007783s ]
+[2020-10-30 12:48:45][sql] CONNECT:[ UseTime:0.004788s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:48:45][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.000939s ]
+[2020-10-30 12:48:45][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.000817s ]
+[2020-10-30 12:48:45][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.000406s ]
+[2020-10-30 12:50:09][sql] CONNECT:[ UseTime:0.001269s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:50:09][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.002373s ]
+[2020-10-30 12:50:09][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.000484s ]
+[2020-10-30 12:50:09][sql] SELECT * FROM `phone_devices` LIMIT 0,10 [ RunTime:0.000308s ]
+[2020-10-30 12:50:11][sql] CONNECT:[ UseTime:0.003860s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:50:11][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001065s ]
+[2020-10-30 12:50:11][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.000768s ]
+[2020-10-30 12:50:11][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.001066s ]
+[2020-10-30 12:50:36][sql] CONNECT:[ UseTime:0.001549s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:50:36][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001693s ]
+[2020-10-30 12:50:36][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001453s ]
+[2020-10-30 12:50:36][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.000534s ]
+[2020-10-30 12:52:11][sql] CONNECT:[ UseTime:0.000446s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:52:11][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001915s ]
+[2020-10-30 12:52:11][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001702s ]
+[2020-10-30 12:52:11][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.000429s ]
+[2020-10-30 12:52:15][sql] CONNECT:[ UseTime:0.002511s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:52:15][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002403s ]
+[2020-10-30 12:52:15][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001750s ]
+[2020-10-30 12:52:15][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.000413s ]
+[2020-10-30 12:52:27][sql] CONNECT:[ UseTime:0.003221s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:52:27][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001021s ]
+[2020-10-30 12:52:27][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.000849s ]
+[2020-10-30 12:52:27][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.002031s ]
+[2020-10-30 12:54:47][sql] CONNECT:[ UseTime:0.003241s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:54:47][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002195s ]
+[2020-10-30 12:54:47][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001304s ]
+[2020-10-30 12:54:47][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.000426s ]
+[2020-10-30 12:56:22][sql] CONNECT:[ UseTime:0.043669s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:57:06][sql] CONNECT:[ UseTime:0.086645s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:57:06][sql] truncate table phone_numbers [ RunTime:0.137378s ]
+[2020-10-30 12:57:17][sql] CONNECT:[ UseTime:0.000766s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:57:17][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.014831s ]
+[2020-10-30 12:57:17][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.004302s ]
+[2020-10-30 12:57:17][sql] SELECT * FROM `phone_devices` LIMIT 0,10 [ RunTime:0.001015s ]
+[2020-10-30 12:57:18][sql] CONNECT:[ UseTime:0.001592s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:57:18][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001732s ]
+[2020-10-30 12:57:18][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.014354s ]
+[2020-10-30 12:57:18][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.000455s ]
+[2020-10-30 12:58:03][sql] CONNECT:[ UseTime:0.003666s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:58:03][sql] truncate table phone_numbers [ RunTime:0.070607s ]
+[2020-10-30 12:58:05][sql] CONNECT:[ UseTime:0.001585s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 12:58:05][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.004884s ]
+[2020-10-30 12:58:05][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.002995s ]
+[2020-10-30 12:58:05][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.001134s ]
+[2020-10-30 13:02:14][sql] CONNECT:[ UseTime:0.001313s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:02:14][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.005645s ]
+[2020-10-30 13:02:14][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.005709s ]
+[2020-10-30 13:02:14][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.000598s ]
+[2020-10-30 13:02:35][sql] CONNECT:[ UseTime:0.046682s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:02:35][sql] truncate table phone_numbers [ RunTime:0.173063s ]
+[2020-10-30 13:02:37][sql] CONNECT:[ UseTime:0.000862s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:02:37][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.010182s ]
+[2020-10-30 13:02:37][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.015881s ]
+[2020-10-30 13:02:37][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.000659s ]
+[2020-10-30 13:04:40][sql] CONNECT:[ UseTime:0.019211s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:04:40][sql] rename table phone_numbers to phone_numbers_202010300104 [ RunTime:0.094115s ]
+[2020-10-30 13:04:40][sql] create table phone_numbers like phone_numbers_202010300104 [ RunTime:0.028265s ]
+[2020-10-30 13:05:09][sql] CONNECT:[ UseTime:0.000660s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:05:09][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.008730s ]
+[2020-10-30 13:05:09][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.005087s ]
+[2020-10-30 13:05:09][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.000853s ]
+[2020-10-30 13:09:56][sql] CONNECT:[ UseTime:0.002924s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:09:56][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002655s ]
+[2020-10-30 13:09:56][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.007828s ]
+[2020-10-30 13:09:56][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.001099s ]
+[2020-10-30 13:12:04][sql] CONNECT:[ UseTime:0.070205s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:12:04][sql] rename table phone_numbers to phone_numbers_202010300112 [ RunTime:0.178526s ]
+[2020-10-30 13:12:04][sql] create table phone_numbers like phone_numbers_202010300112 [ RunTime:0.043201s ]
+[2020-10-30 13:12:07][sql] CONNECT:[ UseTime:0.002226s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:12:07][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.008786s ]
+[2020-10-30 13:12:07][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.006834s ]
+[2020-10-30 13:12:07][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.000371s ]
+[2020-10-30 13:12:09][sql] CONNECT:[ UseTime:0.001591s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:12:09][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.018122s ]
+[2020-10-30 13:14:58][sql] CONNECT:[ UseTime:0.069720s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:14:58][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.045672s ]
+[2020-10-30 13:15:44][sql] CONNECT:[ UseTime:0.000435s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:15:44][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002315s ]
+[2020-10-30 13:15:44][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.024306s ]
+[2020-10-30 13:15:44][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.000985s ]
+[2020-10-30 13:15:57][sql] CONNECT:[ UseTime:0.001988s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:15:57][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.003693s ]
+[2020-10-30 13:15:57][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.006164s ]
+[2020-10-30 13:15:57][sql] SELECT * FROM `phone_devices` LIMIT 0,10 [ RunTime:0.002140s ]
+[2020-10-30 13:16:01][sql] CONNECT:[ UseTime:0.001849s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:16:01][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001038s ]
+[2020-10-30 13:16:01][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.000434s ]
+[2020-10-30 13:16:01][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.001626s ]
+[2020-10-30 13:18:22][sql] CONNECT:[ UseTime:0.005143s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:18:22][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001877s ]
+[2020-10-30 13:18:22][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.002906s ]
+[2020-10-30 13:18:22][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.000405s ]
+[2020-10-30 13:18:27][sql] CONNECT:[ UseTime:0.003233s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:18:27][sql] rename table phone_numbers to phone_numbers_202010300118 [ RunTime:0.081553s ]
+[2020-10-30 13:18:27][sql] create table phone_numbers like phone_numbers_202010300118 [ RunTime:0.208132s ]
+[2020-10-30 13:18:29][sql] CONNECT:[ UseTime:0.000964s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:18:29][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.005176s ]
+[2020-10-30 13:18:29][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.000423s ]
+[2020-10-30 13:18:29][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.000417s ]
+[2020-10-30 13:27:58][sql] CONNECT:[ UseTime:0.000916s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:27:58][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.003521s ]
+[2020-10-30 13:27:58][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.004230s ]
+[2020-10-30 13:27:58][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.000896s ]
+[2020-10-30 13:28:01][sql] CONNECT:[ UseTime:0.002304s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:28:01][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.015731s ]
+[2020-10-30 13:28:01][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.003653s ]
+[2020-10-30 13:28:01][sql] SELECT * FROM `phone_devices` LIMIT 0,10 [ RunTime:0.000406s ]
+[2020-10-30 13:28:04][sql] CONNECT:[ UseTime:0.001661s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:28:04][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.000980s ]
+[2020-10-30 13:28:04][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001179s ]
+[2020-10-30 13:28:04][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.000329s ]
+[2020-10-30 13:28:43][sql] CONNECT:[ UseTime:0.000528s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:28:43][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.003220s ]
+[2020-10-30 13:30:19][sql] CONNECT:[ UseTime:0.000990s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:30:19][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001549s ]
+[2020-10-30 13:31:15][sql] CONNECT:[ UseTime:0.002618s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:31:15][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.003639s ]
+[2020-10-30 13:33:10][sql] CONNECT:[ UseTime:0.049530s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:33:10][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.042659s ]
+[2020-10-30 13:33:14][sql] CONNECT:[ UseTime:0.002771s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:33:14][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001145s ]
+[2020-10-30 13:33:35][sql] CONNECT:[ UseTime:0.001318s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:33:35][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.004264s ]
+[2020-10-30 13:37:14][sql] CONNECT:[ UseTime:0.001539s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:37:14][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.003357s ]
+[2020-10-30 13:37:14][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.007367s ]
+[2020-10-30 13:37:14][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.000922s ]
+[2020-10-30 13:37:22][sql] CONNECT:[ UseTime:0.001860s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:37:22][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001690s ]
+[2020-10-30 13:37:22][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001446s ]
+[2020-10-30 13:37:22][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.000331s ]
+[2020-10-30 13:39:55][sql] CONNECT:[ UseTime:0.090085s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:39:55][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.053810s ]
+[2020-10-30 13:42:46][sql] CONNECT:[ UseTime:0.018714s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 13:42:46][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.027473s ]
+[2020-10-30 14:03:39][sql] CONNECT:[ UseTime:0.088499s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:03:39][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.074110s ]
+[2020-10-30 14:03:53][sql] CONNECT:[ UseTime:0.013117s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:03:53][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.056152s ]
+[2020-10-30 14:09:52][sql] CONNECT:[ UseTime:0.006351s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:09:52][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.005080s ]
+[2020-10-30 14:09:52][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.011172s ]
+[2020-10-30 14:09:52][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.001020s ]
+[2020-10-30 14:09:56][sql] CONNECT:[ UseTime:0.002021s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:09:56][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.006019s ]
+[2020-10-30 14:10:12][sql] CONNECT:[ UseTime:0.055949s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:10:12][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.003767s ]
+[2020-10-30 14:10:12][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.004405s ]
+[2020-10-30 14:10:12][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.001964s ]
+[2020-10-30 14:12:46][sql] CONNECT:[ UseTime:0.037698s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:12:46][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.039112s ]
+[2020-10-30 14:13:38][sql] CONNECT:[ UseTime:0.004196s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:13:38][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.005285s ]
+[2020-10-30 14:13:38][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.016289s ]
+[2020-10-30 14:13:38][sql] SELECT * FROM `phone_devices` LIMIT 0,10 [ RunTime:0.002208s ]
+[2020-10-30 14:13:39][sql] CONNECT:[ UseTime:0.000741s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:13:39][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.016578s ]
+[2020-10-30 14:13:39][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001532s ]
+[2020-10-30 14:13:39][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.001049s ]
+[2020-10-30 14:13:40][sql] CONNECT:[ UseTime:0.002547s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:13:40][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001312s ]
+[2020-10-30 14:15:31][sql] CONNECT:[ UseTime:0.001489s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:15:31][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002324s ]
+[2020-10-30 14:15:31][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.002230s ]
+[2020-10-30 14:15:31][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.000378s ]
+[2020-10-30 14:15:36][sql] CONNECT:[ UseTime:0.000432s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:15:36][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.003255s ]
+[2020-10-30 14:16:20][sql] CONNECT:[ UseTime:0.001974s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:16:20][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001093s ]
+[2020-10-30 14:16:20][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.002743s ]
+[2020-10-30 14:16:20][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.000379s ]
+[2020-10-30 14:16:21][sql] CONNECT:[ UseTime:0.002894s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:16:21][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002055s ]
+[2020-10-30 14:18:01][sql] CONNECT:[ UseTime:0.000489s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:18:01][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.069531s ]
+[2020-10-30 14:18:01][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.002911s ]
+[2020-10-30 14:18:01][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.000373s ]
+[2020-10-30 14:18:05][sql] CONNECT:[ UseTime:0.001553s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:18:05][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002310s ]
+[2020-10-30 14:19:13][sql] CONNECT:[ UseTime:0.041778s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:19:13][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.035260s ]
+[2020-10-30 14:19:13][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.011314s ]
+[2020-10-30 14:19:13][sql] SELECT * FROM `phone_devices` LIMIT 0,10 [ RunTime:0.001419s ]
+[2020-10-30 14:19:18][sql] CONNECT:[ UseTime:0.001840s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:19:18][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001754s ]
+[2020-10-30 14:19:18][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001074s ]
+[2020-10-30 14:19:18][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.002304s ]
+[2020-10-30 14:19:21][sql] CONNECT:[ UseTime:0.001187s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:19:21][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002054s ]
+[2020-10-30 14:19:55][sql] CONNECT:[ UseTime:0.000561s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:19:55][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001105s ]
+[2020-10-30 14:19:55][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001196s ]
+[2020-10-30 14:19:55][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.001768s ]
+[2020-10-30 14:19:58][sql] CONNECT:[ UseTime:0.001646s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:19:58][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.003979s ]
+[2020-10-30 14:20:11][sql] CONNECT:[ UseTime:0.024168s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:20:11][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.002820s ]
+[2020-10-30 14:20:11][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.001444s ]
+[2020-10-30 14:20:11][sql] SELECT * FROM `phone_devices` LIMIT 0,10 [ RunTime:0.001131s ]
+[2020-10-30 14:21:41][sql] CONNECT:[ UseTime:0.000891s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:21:41][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.161722s ]
+[2020-10-30 14:21:41][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.000821s ]
+[2020-10-30 14:21:41][sql] SELECT * FROM `phone_devices` LIMIT 0,10 [ RunTime:0.000389s ]
+[2020-10-30 14:21:45][sql] CONNECT:[ UseTime:0.001689s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:21:45][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001151s ]
+[2020-10-30 14:21:45][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.002146s ]
+[2020-10-30 14:21:45][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.000308s ]
+[2020-10-30 14:21:46][sql] CONNECT:[ UseTime:0.001947s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:21:46][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002745s ]
+[2020-10-30 14:35:50][sql] CONNECT:[ UseTime:0.111050s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:35:50][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.119308s ]
+[2020-10-30 14:37:13][sql] CONNECT:[ UseTime:0.063315s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:37:13][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.032591s ]
+[2020-10-30 14:37:13][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.019801s ]
+[2020-10-30 14:37:13][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.004965s ]
+[2020-10-30 14:57:07][sql] CONNECT:[ UseTime:0.223365s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:57:07][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.075133s ]
+[2020-10-30 14:57:07][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.098223s ]
+[2020-10-30 14:57:07][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.084186s ]
+[2020-10-30 14:57:09][sql] CONNECT:[ UseTime:0.001433s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:57:09][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.006519s ]
+[2020-10-30 14:57:58][sql] CONNECT:[ UseTime:0.000506s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 14:57:58][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.020784s ]
+[2020-10-30 14:57:58][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.002832s ]
+[2020-10-30 14:57:58][sql] SELECT * FROM `phone_numbers` LIMIT 0,10 [ RunTime:0.001850s ]
+[2020-10-30 15:01:16][sql] CONNECT:[ UseTime:0.000445s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 15:01:16][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.003097s ]
+[2020-10-30 15:01:16][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.002383s ]
+[2020-10-30 15:01:16][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000926s ]
+[2020-10-30 15:01:19][sql] CONNECT:[ UseTime:0.000621s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 15:01:19][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001195s ]
+[2020-10-30 15:01:31][sql] CONNECT:[ UseTime:0.006419s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 15:01:31][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.005894s ]
+[2020-10-30 15:03:38][sql] CONNECT:[ UseTime:0.000461s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 15:03:38][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002456s ]
+[2020-10-30 15:03:38][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.002374s ]
+[2020-10-30 15:03:38][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000453s ]
+[2020-10-30 15:04:03][sql] CONNECT:[ UseTime:0.002646s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 15:04:03][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001047s ]
+[2020-10-30 15:04:16][sql] CONNECT:[ UseTime:0.000903s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 15:04:16][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002074s ]
+[2020-10-30 15:23:48][sql] CONNECT:[ UseTime:0.001736s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 15:23:48][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.005720s ]
+[2020-10-30 15:23:48][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.006366s ]
+[2020-10-30 15:23:48][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000718s ]
+[2020-10-30 15:23:52][sql] CONNECT:[ UseTime:0.002729s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 15:23:52][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001152s ]
+[2020-10-30 15:24:41][sql] CONNECT:[ UseTime:0.002315s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 15:24:41][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.003775s ]
+[2020-10-30 15:24:41][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001667s ]
+[2020-10-30 15:24:41][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.001050s ]
+[2020-10-30 15:27:47][sql] CONNECT:[ UseTime:0.001247s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 15:27:47][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002372s ]
+[2020-10-30 15:28:23][sql] CONNECT:[ UseTime:0.000533s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 15:28:23][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001926s ]
+[2020-10-30 15:28:23][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001567s ]
+[2020-10-30 15:28:23][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000974s ]
+[2020-10-30 15:30:05][sql] CONNECT:[ UseTime:0.003949s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 15:30:05][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.015001s ]
+[2020-10-30 16:06:15][sql] CONNECT:[ UseTime:0.163096s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 16:06:15][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.126737s ]
+[2020-10-30 16:16:29][sql] CONNECT:[ UseTime:0.001991s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 16:16:29][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002241s ]
+[2020-10-30 16:16:29][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.004635s ]
+[2020-10-30 16:16:29][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.002006s ]
+[2020-10-30 16:18:43][sql] CONNECT:[ UseTime:0.001223s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 16:18:43][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.019098s ]
+[2020-10-30 16:46:02][sql] CONNECT:[ UseTime:0.018142s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 16:46:02][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001222s ]
+[2020-10-30 16:46:02][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.002408s ]
+[2020-10-30 16:46:02][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000334s ]
+[2020-10-30 16:46:05][sql] CONNECT:[ UseTime:0.000525s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 16:46:05][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.003167s ]
+[2020-10-30 16:53:20][sql] CONNECT:[ UseTime:0.004704s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 16:53:20][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.003434s ]
+[2020-10-30 16:53:20][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.005436s ]
+[2020-10-30 16:53:20][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000323s ]
+[2020-10-30 16:53:28][sql] CONNECT:[ UseTime:0.001325s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 16:53:28][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002724s ]
+[2020-10-30 16:55:20][sql] CONNECT:[ UseTime:0.000461s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 16:55:20][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001730s ]
+[2020-10-30 16:55:20][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001458s ]
+[2020-10-30 16:55:20][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.001696s ]
+[2020-10-30 16:55:22][sql] CONNECT:[ UseTime:0.001087s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 16:55:22][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001935s ]
+[2020-10-30 16:58:49][sql] CONNECT:[ UseTime:0.000398s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 16:58:49][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002357s ]
+[2020-10-30 16:58:49][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.002083s ]
+[2020-10-30 16:58:49][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000311s ]
+[2020-10-30 16:58:50][sql] CONNECT:[ UseTime:0.001237s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 16:58:50][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001525s ]
+[2020-10-30 16:59:04][sql] CONNECT:[ UseTime:0.001615s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 16:59:04][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.003040s ]
+[2020-10-30 16:59:04][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.000334s ]
+[2020-10-30 16:59:04][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000954s ]
+[2020-10-30 17:08:27][sql] CONNECT:[ UseTime:0.001681s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:08:27][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.005673s ]
+[2020-10-30 17:08:27][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.005586s ]
+[2020-10-30 17:08:27][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.001224s ]
+[2020-10-30 17:08:29][sql] CONNECT:[ UseTime:0.002651s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:08:29][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001849s ]
+[2020-10-30 17:09:32][sql] CONNECT:[ UseTime:0.002521s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:09:32][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001402s ]
+[2020-10-30 17:09:32][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.003391s ]
+[2020-10-30 17:09:32][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.001707s ]
+[2020-10-30 17:09:58][sql] CONNECT:[ UseTime:0.000402s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:09:58][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002611s ]
+[2020-10-30 17:10:08][sql] CONNECT:[ UseTime:0.003181s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:10:08][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001049s ]
+[2020-10-30 17:10:08][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.002669s ]
+[2020-10-30 17:10:08][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000831s ]
+[2020-10-30 17:10:10][sql] CONNECT:[ UseTime:0.003191s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:10:10][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.005772s ]
+[2020-10-30 17:11:49][sql] CONNECT:[ UseTime:0.002746s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:11:49][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001738s ]
+[2020-10-30 17:12:57][sql] CONNECT:[ UseTime:0.001726s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:12:57][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.005059s ]
+[2020-10-30 17:12:57][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.005412s ]
+[2020-10-30 17:12:57][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.001093s ]
+[2020-10-30 17:12:58][sql] CONNECT:[ UseTime:0.000484s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:12:58][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002086s ]
+[2020-10-30 17:12:58][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.000898s ]
+[2020-10-30 17:12:58][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000699s ]
+[2020-10-30 17:13:00][sql] CONNECT:[ UseTime:0.000908s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:13:00][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.003582s ]
+[2020-10-30 17:15:36][sql] CONNECT:[ UseTime:0.002132s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:15:36][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001158s ]
+[2020-10-30 17:15:36][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.002236s ]
+[2020-10-30 17:15:36][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.001005s ]
+[2020-10-30 17:15:40][sql] CONNECT:[ UseTime:0.000445s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:15:40][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.004441s ]
+[2020-10-30 17:17:17][sql] CONNECT:[ UseTime:0.000677s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:17:17][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.005384s ]
+[2020-10-30 17:17:17][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.000375s ]
+[2020-10-30 17:17:17][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000966s ]
+[2020-10-30 17:17:19][sql] CONNECT:[ UseTime:0.000469s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:17:19][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002274s ]
+[2020-10-30 17:17:40][sql] CONNECT:[ UseTime:0.000460s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:17:40][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.004033s ]
+[2020-10-30 17:17:40][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001396s ]
+[2020-10-30 17:17:40][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.001080s ]
+[2020-10-30 17:18:09][sql] CONNECT:[ UseTime:0.001463s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:18:09][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002308s ]
+[2020-10-30 17:18:09][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.000308s ]
+[2020-10-30 17:18:09][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.001732s ]
+[2020-10-30 17:18:10][sql] CONNECT:[ UseTime:0.002990s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:18:10][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002953s ]
+[2020-10-30 17:19:27][sql] CONNECT:[ UseTime:0.001344s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:19:27][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002489s ]
+[2020-10-30 17:19:27][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001670s ]
+[2020-10-30 17:19:27][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000293s ]
+[2020-10-30 17:19:29][sql] CONNECT:[ UseTime:0.001492s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:19:29][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.004398s ]
+[2020-10-30 17:19:53][sql] CONNECT:[ UseTime:0.002665s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:19:53][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.003146s ]
+[2020-10-30 17:27:52][sql] CONNECT:[ UseTime:0.011095s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:27:52][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.009772s ]
+[2020-10-30 17:27:52][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.003627s ]
+[2020-10-30 17:27:52][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000981s ]
+[2020-10-30 17:27:54][sql] CONNECT:[ UseTime:0.001426s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:27:54][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001373s ]
+[2020-10-30 17:28:10][sql] CONNECT:[ UseTime:0.000455s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:28:10][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.003194s ]
+[2020-10-30 17:28:10][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001317s ]
+[2020-10-30 17:28:10][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000314s ]
+[2020-10-30 17:28:11][sql] CONNECT:[ UseTime:0.001615s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:28:11][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001680s ]
+[2020-10-30 17:31:39][sql] CONNECT:[ UseTime:0.002572s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:31:39][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.003205s ]
+[2020-10-30 17:31:39][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.003251s ]
+[2020-10-30 17:31:39][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000444s ]
+[2020-10-30 17:31:42][sql] CONNECT:[ UseTime:0.001276s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:31:42][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.000998s ]
+[2020-10-30 17:31:42][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001507s ]
+[2020-10-30 17:31:42][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000694s ]
+[2020-10-30 17:31:44][sql] CONNECT:[ UseTime:0.002462s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:31:44][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001342s ]
+[2020-10-30 17:34:27][sql] CONNECT:[ UseTime:0.001435s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:34:27][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002266s ]
+[2020-10-30 17:34:27][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.000403s ]
+[2020-10-30 17:34:27][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000342s ]
+[2020-10-30 17:34:27][sql] CONNECT:[ UseTime:0.002579s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:34:27][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.003801s ]
+[2020-10-30 17:34:27][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.000986s ]
+[2020-10-30 17:34:27][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000363s ]
+[2020-10-30 17:34:32][sql] CONNECT:[ UseTime:0.000384s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:34:32][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001366s ]
+[2020-10-30 17:36:09][sql] CONNECT:[ UseTime:0.038485s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:36:09][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.013439s ]
+[2020-10-30 17:36:09][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001196s ]
+[2020-10-30 17:36:09][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000360s ]
+[2020-10-30 17:36:16][sql] CONNECT:[ UseTime:0.000496s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:36:16][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001546s ]
+[2020-10-30 17:36:16][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.000895s ]
+[2020-10-30 17:36:16][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.003347s ]
+[2020-10-30 17:36:17][sql] CONNECT:[ UseTime:0.000923s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:36:17][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001016s ]
+[2020-10-30 17:40:25][sql] CONNECT:[ UseTime:0.002817s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:40:25][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.029162s ]
+[2020-10-30 17:40:25][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.009469s ]
+[2020-10-30 17:40:25][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000446s ]
+[2020-10-30 17:41:22][sql] CONNECT:[ UseTime:0.000535s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:41:22][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.004984s ]
+[2020-10-30 17:58:10][sql] CONNECT:[ UseTime:0.000442s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:58:10][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002628s ]
+[2020-10-30 17:58:10][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.002901s ]
+[2020-10-30 17:58:10][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000434s ]
+[2020-10-30 17:58:12][sql] CONNECT:[ UseTime:0.001045s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:58:12][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001137s ]
+[2020-10-30 17:58:32][sql] CONNECT:[ UseTime:0.002725s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 17:58:32][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001642s ]
+[2020-10-30 18:07:14][sql] CONNECT:[ UseTime:0.001223s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 18:07:14][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002383s ]
+[2020-10-30 18:07:14][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.005066s ]
+[2020-10-30 18:07:14][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000483s ]
+[2020-10-30 18:07:17][sql] CONNECT:[ UseTime:0.001704s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 18:07:17][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001670s ]
+[2020-10-30 18:11:00][sql] CONNECT:[ UseTime:0.075653s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 18:11:00][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.064622s ]
+[2020-10-30 18:11:28][sql] CONNECT:[ UseTime:0.002201s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 18:11:28][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002326s ]
+[2020-10-30 18:11:54][sql] CONNECT:[ UseTime:0.003163s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 18:11:54][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.005076s ]
+[2020-10-30 18:12:59][sql] CONNECT:[ UseTime:0.002500s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 18:12:59][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.006831s ]
+[2020-10-30 18:14:14][sql] CONNECT:[ UseTime:0.010160s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 18:14:14][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.003572s ]
+[2020-10-30 18:14:33][sql] CONNECT:[ UseTime:0.000670s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 18:14:33][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001299s ]
+[2020-10-30 18:15:54][sql] CONNECT:[ UseTime:0.001508s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 18:15:54][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002965s ]
+[2020-10-30 18:16:04][sql] CONNECT:[ UseTime:0.000521s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 18:16:04][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001271s ]
+[2020-10-30 18:16:04][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.046244s ]
+[2020-10-30 18:16:04][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.063305s ]
+[2020-10-30 18:17:57][sql] CONNECT:[ UseTime:0.053349s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 18:17:57][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.041305s ]
+[2020-10-30 18:18:16][sql] CONNECT:[ UseTime:0.011248s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 18:18:16][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.005463s ]
+[2020-10-30 18:18:16][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.017224s ]
+[2020-10-30 18:18:16][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.002266s ]
+[2020-10-30 18:20:07][sql] CONNECT:[ UseTime:0.005971s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 18:20:07][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.006337s ]
+[2020-10-30 18:38:44][sql] CONNECT:[ UseTime:0.066850s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 18:38:44][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.128018s ]
+[2020-10-30 18:38:44][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.069543s ]
+[2020-10-30 18:38:44][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.052259s ]
+[2020-10-30 18:38:46][sql] CONNECT:[ UseTime:0.002493s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 18:38:46][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.006327s ]
+[2020-10-30 18:38:46][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.007067s ]
+[2020-10-30 18:38:46][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.001227s ]
+[2020-10-30 18:38:47][sql] CONNECT:[ UseTime:0.005056s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 18:38:47][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.017828s ]
+[2020-10-30 18:52:22][sql] CONNECT:[ UseTime:0.045713s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 18:52:22][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.006347s ]
+[2020-10-30 18:52:22][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.006090s ]
+[2020-10-30 18:52:22][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.001115s ]
+[2020-10-30 18:52:25][sql] CONNECT:[ UseTime:0.003085s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 18:52:25][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002919s ]
+[2020-10-30 18:53:12][sql] CONNECT:[ UseTime:0.000924s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 18:53:12][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.004671s ]
+[2020-10-30 18:54:21][sql] CONNECT:[ UseTime:0.046102s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 18:54:21][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.042300s ]
+[2020-10-30 18:54:21][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.019666s ]
+[2020-10-30 18:54:21][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.001037s ]
+[2020-10-30 18:54:22][sql] CONNECT:[ UseTime:0.002055s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 18:54:22][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001974s ]
+[2020-10-30 18:54:22][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.014917s ]
+[2020-10-30 18:54:22][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000587s ]
+[2020-10-30 18:54:23][sql] CONNECT:[ UseTime:0.001538s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 18:54:23][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002631s ]
+[2020-10-30 18:57:11][sql] CONNECT:[ UseTime:0.001233s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 18:57:11][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002166s ]
+[2020-10-30 19:10:22][sql] CONNECT:[ UseTime:0.001448s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:10:22][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.003187s ]
+[2020-10-30 19:10:22][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.004324s ]
+[2020-10-30 19:10:22][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000468s ]
+[2020-10-30 19:10:35][sql] CONNECT:[ UseTime:0.000561s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:10:35][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001373s ]
+[2020-10-30 19:19:25][sql] CONNECT:[ UseTime:0.080326s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:19:25][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.035293s ]
+[2020-10-30 19:19:25][sql] SELECT * FROM `phone_devices` WHERE  `deviceid` = 'bbbbbbbbbbbbbbbb' LIMIT 1 [ RunTime:0.022548s ]
+[2020-10-30 19:19:37][sql] CONNECT:[ UseTime:0.000506s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:19:37][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001377s ]
+[2020-10-30 19:19:37][sql] SELECT * FROM `phone_devices` WHERE  `deviceid` = 'ccccccbbbbbbbbbbbbbbbb' LIMIT 1 [ RunTime:0.002258s ]
+[2020-10-30 19:19:37][sql] INSERT INTO `phone_devices` SET `deviceid` = 'ccccccbbbbbbbbbbbbbbbb' [ RunTime:0.041516s ]
+[2020-10-30 19:24:44][sql] CONNECT:[ UseTime:0.047701s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:24:44][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.050897s ]
+[2020-10-30 19:24:44][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.014713s ]
+[2020-10-30 19:24:44][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.000877s ]
+[2020-10-30 19:24:46][sql] CONNECT:[ UseTime:0.000476s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:24:46][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.003304s ]
+[2020-10-30 19:24:46][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001761s ]
+[2020-10-30 19:24:46][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000509s ]
+[2020-10-30 19:24:47][sql] CONNECT:[ UseTime:0.003464s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:24:47][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001175s ]
+[2020-10-30 19:25:00][sql] CONNECT:[ UseTime:0.002165s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:25:00][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001253s ]
+[2020-10-30 19:25:00][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001833s ]
+[2020-10-30 19:25:00][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000346s ]
+[2020-10-30 19:25:42][sql] CONNECT:[ UseTime:0.001633s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:25:42][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.003045s ]
+[2020-10-30 19:26:09][sql] CONNECT:[ UseTime:0.038580s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:26:09][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001459s ]
+[2020-10-30 19:26:09][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.002057s ]
+[2020-10-30 19:26:09][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.001869s ]
+[2020-10-30 19:26:11][sql] CONNECT:[ UseTime:0.001957s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:26:11][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001076s ]
+[2020-10-30 19:26:11][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.000646s ]
+[2020-10-30 19:26:11][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.001657s ]
+[2020-10-30 19:26:12][sql] CONNECT:[ UseTime:0.001193s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:26:12][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001595s ]
+[2020-10-30 19:26:23][sql] CONNECT:[ UseTime:0.001231s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:26:23][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002272s ]
+[2020-10-30 19:26:23][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.000487s ]
+[2020-10-30 19:26:23][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000767s ]
+[2020-10-30 19:26:51][sql] CONNECT:[ UseTime:0.000859s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:26:51][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.004049s ]
+[2020-10-30 19:28:38][sql] CONNECT:[ UseTime:0.000568s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:28:38][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.004921s ]
+[2020-10-30 19:28:38][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.022716s ]
+[2020-10-30 19:28:38][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.001084s ]
+[2020-10-30 19:28:56][sql] CONNECT:[ UseTime:0.000491s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:28:56][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.018827s ]
+[2020-10-30 19:36:19][sql] CONNECT:[ UseTime:0.001550s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:36:19][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.005634s ]
+[2020-10-30 19:36:19][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.005959s ]
+[2020-10-30 19:36:19][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.001523s ]
+[2020-10-30 19:37:11][sql] CONNECT:[ UseTime:0.000533s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:37:11][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001080s ]
+[2020-10-30 19:37:59][sql] CONNECT:[ UseTime:0.093949s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:37:59][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.040021s ]
+[2020-10-30 19:40:45][sql] CONNECT:[ UseTime:0.000521s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:40:45][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.003156s ]
+[2020-10-30 19:40:45][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.002428s ]
+[2020-10-30 19:40:45][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000903s ]
+[2020-10-30 19:42:19][sql] CONNECT:[ UseTime:0.000589s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:42:19][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.006737s ]
+[2020-10-30 19:43:08][sql] CONNECT:[ UseTime:0.001631s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:43:08][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.005374s ]
+[2020-10-30 19:43:08][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.002096s ]
+[2020-10-30 19:43:08][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.002021s ]
+[2020-10-30 19:43:08][sql] CONNECT:[ UseTime:0.002125s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 19:43:08][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001026s ]
+[2020-10-30 20:13:50][sql] CONNECT:[ UseTime:0.119273s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 20:13:50][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.081042s ]
+[2020-10-30 20:16:53][sql] CONNECT:[ UseTime:0.083771s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 20:16:53][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.055920s ]
+[2020-10-30 20:25:14][sql] CONNECT:[ UseTime:0.093024s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 20:25:14][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.077859s ]
+[2020-10-30 20:27:51][sql] CONNECT:[ UseTime:0.067922s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 20:27:51][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.048922s ]
+[2020-10-30 20:28:04][sql] CONNECT:[ UseTime:0.000445s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 20:28:04][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002347s ]
+[2020-10-30 20:29:59][sql] CONNECT:[ UseTime:0.045987s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 20:29:59][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.053489s ]
+[2020-10-30 20:44:00][sql] CONNECT:[ UseTime:0.094978s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 20:44:00][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.084087s ]
+[2020-10-30 20:44:00][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.058374s ]
+[2020-10-30 20:44:00][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.001077s ]
+[2020-10-30 20:44:41][sql] CONNECT:[ UseTime:0.001027s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 20:44:41][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.003167s ]
+[2020-10-30 20:50:58][sql] CONNECT:[ UseTime:0.050021s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 20:50:58][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.022651s ]
+[2020-10-30 20:51:50][sql] CONNECT:[ UseTime:0.004779s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 20:51:50][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.006672s ]
+[2020-10-30 20:51:50][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.013365s ]
+[2020-10-30 20:51:50][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.002311s ]
+[2020-10-30 20:51:51][sql] CONNECT:[ UseTime:0.001674s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 20:51:51][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001050s ]
+[2020-10-30 20:51:51][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.020460s ]
+[2020-10-30 20:51:51][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.001025s ]
+[2020-10-30 20:51:53][sql] CONNECT:[ UseTime:0.001258s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 20:51:53][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.005130s ]
+[2020-10-30 20:52:07][sql] CONNECT:[ UseTime:0.001255s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 20:52:07][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002314s ]
+[2020-10-30 20:52:23][sql] CONNECT:[ UseTime:0.000419s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 20:52:23][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002434s ]
+[2020-10-30 20:52:23][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.018286s ]
+[2020-10-30 20:52:23][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000383s ]
+[2020-10-30 20:52:30][sql] CONNECT:[ UseTime:0.000428s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 20:52:30][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.021658s ]
+[2020-10-30 20:53:03][sql] CONNECT:[ UseTime:0.001886s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 20:53:03][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.004437s ]
+[2020-10-30 20:57:13][sql] CONNECT:[ UseTime:0.063794s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-30 20:57:13][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.059139s ]
+[2020-10-31 12:28:27][sql] CONNECT:[ UseTime:0.001717s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 12:28:27][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.010473s ]
+[2020-10-31 12:28:27][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.006259s ]
+[2020-10-31 12:28:27][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000452s ]
+[2020-10-31 12:28:29][sql] CONNECT:[ UseTime:0.002921s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 12:28:29][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.006024s ]
+[2020-10-31 12:30:59][sql] CONNECT:[ UseTime:0.030454s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 12:30:59][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.044158s ]
+[2020-10-31 12:31:10][sql] CONNECT:[ UseTime:0.000919s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 12:31:10][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.018878s ]
+[2020-10-31 12:31:10][sql] SELECT * FROM `phone_numbers` WHERE  `phone_number` = '+639776097178
+' LIMIT 1 [ RunTime:0.018055s ]
+[2020-10-31 12:31:48][sql] CONNECT:[ UseTime:0.087810s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 12:31:48][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.055054s ]
+[2020-10-31 12:31:48][sql] SELECT * FROM `phone_numbers` WHERE  `phone_number` = '+639776097178
+' LIMIT 1 [ RunTime:0.010225s ]
+[2020-10-31 12:31:48][sql] INSERT INTO `phone_numbers` SET `phone_number` = '+639776097178
+' [ RunTime:0.058328s ]
+[2020-10-31 12:31:48][sql] SELECT * FROM `phone_numbers` WHERE  `phone_number` = '+8613131313311
+' LIMIT 1 [ RunTime:0.000499s ]
+[2020-10-31 12:31:48][sql] INSERT INTO `phone_numbers` SET `phone_number` = '+8613131313311
+' [ RunTime:0.044667s ]
+[2020-10-31 12:31:48][sql] SELECT * FROM `phone_numbers` WHERE  `phone_number` = '+639776097178
+' LIMIT 1 [ RunTime:0.024298s ]
+[2020-10-31 12:31:48][sql] INSERT INTO `phone_numbers` SET `phone_number` = '+639776097178
+' [ RunTime:0.004708s ]
+[2020-10-31 12:32:20][sql] CONNECT:[ UseTime:0.001835s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 12:32:20][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.022874s ]
+[2020-10-31 12:32:20][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.012666s ]
+[2020-10-31 12:32:20][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.001704s ]
+[2020-10-31 12:32:22][sql] CONNECT:[ UseTime:0.003035s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 12:32:22][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001685s ]
+[2020-10-31 12:32:22][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001027s ]
+[2020-10-31 12:32:22][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000387s ]
+[2020-10-31 12:32:34][sql] CONNECT:[ UseTime:0.002657s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 12:32:34][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002157s ]
+[2020-10-31 12:38:06][sql] CONNECT:[ UseTime:0.083381s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 12:38:06][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.076649s ]
+[2020-10-31 12:45:31][sql] CONNECT:[ UseTime:0.073628s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 12:45:31][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.066600s ]
+[2020-10-31 12:45:31][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.019408s ]
+[2020-10-31 12:45:31][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.003401s ]
+[2020-10-31 12:45:32][sql] CONNECT:[ UseTime:0.001073s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 12:45:32][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.024464s ]
+[2020-10-31 12:45:32][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.005306s ]
+[2020-10-31 12:45:32][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.001682s ]
+[2020-10-31 12:45:34][sql] CONNECT:[ UseTime:0.001219s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 12:45:34][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002585s ]
+[2020-10-31 12:46:43][sql] CONNECT:[ UseTime:0.013814s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 12:46:43][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.008621s ]
+[2020-10-31 12:46:43][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.009817s ]
+[2020-10-31 12:46:43][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.001619s ]
+[2020-10-31 12:46:44][sql] CONNECT:[ UseTime:0.013921s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 12:46:44][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001074s ]
+[2020-10-31 12:46:44][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.000956s ]
+[2020-10-31 12:46:44][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.001590s ]
+[2020-10-31 12:46:46][sql] CONNECT:[ UseTime:0.001964s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 12:46:46][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001306s ]
+[2020-10-31 12:49:06][sql] CONNECT:[ UseTime:0.018032s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 12:49:06][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.008820s ]
+[2020-10-31 12:49:19][sql] CONNECT:[ UseTime:0.001616s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 12:49:19][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.018187s ]
+[2020-10-31 12:49:19][sql] SELECT * FROM `phone_numbers` WHERE  `phone_number` = '+639776097178
+' LIMIT 1 [ RunTime:0.011716s ]
+[2020-10-31 12:49:19][sql] INSERT INTO `phone_numbers` SET `phone_number` = '+639776097178
+' [ RunTime:0.039482s ]
+[2020-10-31 12:49:19][sql] SELECT * FROM `phone_numbers` WHERE  `phone_number` = '+8613131313311
+' LIMIT 1 [ RunTime:0.003148s ]
+[2020-10-31 12:49:19][sql] INSERT INTO `phone_numbers` SET `phone_number` = '+8613131313311
+' [ RunTime:0.006560s ]
+[2020-10-31 12:49:19][sql] SELECT * FROM `phone_numbers` WHERE  `phone_number` = '+639776097178
+' LIMIT 1 [ RunTime:0.003216s ]
+[2020-10-31 12:49:19][sql] INSERT INTO `phone_numbers` SET `phone_number` = '+639776097178
+' [ RunTime:0.004709s ]
+[2020-10-31 12:49:21][sql] CONNECT:[ UseTime:0.003492s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 12:49:21][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.003174s ]
+[2020-10-31 12:49:21][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.017697s ]
+[2020-10-31 12:49:21][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.001869s ]
+[2020-10-31 12:51:55][sql] CONNECT:[ UseTime:0.040716s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 12:51:55][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.041471s ]
+[2020-10-31 12:52:01][sql] CONNECT:[ UseTime:0.001182s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 12:52:01][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.004420s ]
+[2020-10-31 12:52:01][sql] SELECT * FROM `phone_numbers` WHERE  `phone_number` = '+639776097178
+' LIMIT 1 [ RunTime:0.019900s ]
+[2020-10-31 12:52:01][sql] SELECT * FROM `phone_numbers` WHERE  `phone_number` = '+8613131313311
+' LIMIT 1 [ RunTime:0.001227s ]
+[2020-10-31 12:52:01][sql] SELECT * FROM `phone_numbers` WHERE  `phone_number` = '+639776097178
+' LIMIT 1 [ RunTime:0.000925s ]
+[2020-10-31 12:52:22][sql] CONNECT:[ UseTime:0.000513s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 12:52:22][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.003310s ]
+[2020-10-31 12:52:22][sql] SELECT * FROM `phone_numbers` WHERE  `phone_number` = '+639776097178
+' LIMIT 1 [ RunTime:0.000499s ]
+[2020-10-31 12:52:22][sql] SELECT * FROM `phone_numbers` WHERE  `phone_number` = '+8613131313311
+' LIMIT 1 [ RunTime:0.000435s ]
+[2020-10-31 12:52:22][sql] SELECT * FROM `phone_numbers` WHERE  `phone_number` = '+639776097178
+' LIMIT 1 [ RunTime:0.000434s ]
+[2020-10-31 12:58:04][sql] CONNECT:[ UseTime:0.076959s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 12:58:04][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.087080s ]
+[2020-10-31 12:58:04][sql] SELECT * FROM `phone_numbers` WHERE  `phone_number` = '+639776097178
+' LIMIT 1 [ RunTime:0.043072s ]
+[2020-10-31 12:58:04][sql] SELECT * FROM `phone_numbers` WHERE  `phone_number` = '+8613131313311
+' LIMIT 1 [ RunTime:0.024134s ]
+[2020-10-31 12:58:04][sql] SELECT * FROM `phone_numbers` WHERE  `phone_number` = '+639776097178
+' LIMIT 1 [ RunTime:0.001060s ]
+[2020-10-31 13:00:02][sql] CONNECT:[ UseTime:0.060142s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 13:00:02][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.066605s ]
+[2020-10-31 13:00:12][sql] CONNECT:[ UseTime:0.021478s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 13:00:12][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.004679s ]
+[2020-10-31 13:00:12][sql] SELECT * FROM `phone_numbers` WHERE  `phone_number` = '+639776097178
+' LIMIT 1 [ RunTime:0.043276s ]
+[2020-10-31 13:00:12][sql] SELECT * FROM `phone_numbers` WHERE  `phone_number` = '+8613131313311
+' LIMIT 1 [ RunTime:0.025326s ]
+[2020-10-31 13:00:12][sql] SELECT * FROM `phone_numbers` WHERE  `phone_number` = '+639776097178
+' LIMIT 1 [ RunTime:0.000383s ]
+[2020-10-31 13:00:52][sql] CONNECT:[ UseTime:0.058308s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 13:00:52][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.011837s ]
+[2020-10-31 13:00:52][sql] SELECT * FROM `phone_numbers` WHERE  `phone_number` = '+639776097178
+' LIMIT 1 [ RunTime:0.007913s ]
+[2020-10-31 13:00:52][sql] SELECT * FROM `phone_numbers` WHERE  `phone_number` = '+8613131313311
+' LIMIT 1 [ RunTime:0.000971s ]
+[2020-10-31 13:00:52][sql] SELECT * FROM `phone_numbers` WHERE  `phone_number` = '+639776097178
+' LIMIT 1 [ RunTime:0.001114s ]
+[2020-10-31 13:00:55][sql] CONNECT:[ UseTime:0.002068s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 13:00:55][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001049s ]
+[2020-10-31 13:00:55][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.050404s ]
+[2020-10-31 13:00:55][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.002104s ]
+[2020-10-31 13:01:34][sql] CONNECT:[ UseTime:0.003077s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 13:01:34][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001301s ]
+[2020-10-31 13:01:42][sql] CONNECT:[ UseTime:0.021226s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 13:01:42][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.003132s ]
+[2020-10-31 13:03:59][sql] CONNECT:[ UseTime:0.001092s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 13:03:59][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.006259s ]
+[2020-10-31 13:04:08][sql] CONNECT:[ UseTime:0.001032s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 13:04:08][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.003579s ]
+[2020-10-31 13:04:08][sql] SELECT * FROM `phone_numbers` WHERE  `phone_number` = '+639776097178
+' LIMIT 1 [ RunTime:0.003444s ]
+[2020-10-31 13:04:08][sql] SELECT * FROM `phone_numbers` WHERE  `phone_number` = '+8613131313311
+' LIMIT 1 [ RunTime:0.003005s ]
+[2020-10-31 13:04:08][sql] SELECT * FROM `phone_numbers` WHERE  `phone_number` = '+639776097178
+' LIMIT 1 [ RunTime:0.001686s ]
+[2020-10-31 13:04:10][sql] CONNECT:[ UseTime:0.000405s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 13:04:10][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.020632s ]
+[2020-10-31 13:04:10][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001876s ]
+[2020-10-31 13:04:10][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.001157s ]
+[2020-10-31 13:04:50][sql] CONNECT:[ UseTime:0.000552s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 13:04:50][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.007337s ]
+[2020-10-31 13:05:12][sql] CONNECT:[ UseTime:0.001268s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 13:05:12][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001737s ]
+[2020-10-31 13:05:12][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001495s ]
+[2020-10-31 13:05:12][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.001404s ]
+[2020-10-31 13:05:53][sql] CONNECT:[ UseTime:0.000433s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 13:05:53][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.005421s ]
+[2020-10-31 13:06:45][sql] CONNECT:[ UseTime:0.000460s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 13:06:45][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001109s ]
+[2020-10-31 13:06:45][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001320s ]
+[2020-10-31 13:06:45][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000408s ]
+[2020-10-31 13:07:00][sql] CONNECT:[ UseTime:0.002910s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 13:07:00][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.004596s ]
+[2020-10-31 13:07:00][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.005209s ]
+[2020-10-31 13:07:00][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.000766s ]
+[2020-10-31 13:07:02][sql] CONNECT:[ UseTime:0.000452s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 13:07:02][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001893s ]
+[2020-10-31 13:07:02][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.000383s ]
+[2020-10-31 13:07:02][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.001383s ]
+[2020-10-31 13:07:04][sql] CONNECT:[ UseTime:0.002588s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 13:07:04][sql] rename table phone_numbers to phone_numbers_202010310107 [ RunTime:0.156807s ]
+[2020-10-31 13:07:04][sql] create table phone_numbers like phone_numbers_202010310107 [ RunTime:0.055766s ]
+[2020-10-31 13:07:06][sql] CONNECT:[ UseTime:0.000484s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 13:07:06][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.034434s ]
+[2020-10-31 13:07:06][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001581s ]
+[2020-10-31 13:07:06][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000598s ]
+[2020-10-31 16:06:05][sql] CONNECT:[ UseTime:0.000988s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 16:06:05][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.002623s ]
+[2020-10-31 16:06:05][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.004279s ]
+[2020-10-31 16:06:05][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.001238s ]
+[2020-10-31 16:06:34][sql] CONNECT:[ UseTime:0.008255s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 16:06:34][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.009333s ]
+[2020-10-31 16:06:34][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.002258s ]
+[2020-10-31 16:06:34][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.000813s ]
+[2020-10-31 16:07:14][sql] CONNECT:[ UseTime:0.001536s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 16:07:14][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.001800s ]
+[2020-10-31 16:07:14][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.001170s ]
+[2020-10-31 16:07:14][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.001003s ]
+[2020-10-31 16:07:15][sql] CONNECT:[ UseTime:0.000402s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-10-31 16:07:15][sql] SHOW FULL COLUMNS FROM `phone_devices` [ RunTime:0.001943s ]
+[2020-10-31 16:07:15][sql] SELECT COUNT(*) AS think_count FROM `phone_devices` [ RunTime:0.004947s ]
+[2020-10-31 16:07:15][sql] SELECT * FROM `phone_devices` LIMIT 0,20 [ RunTime:0.001542s ]
+[2020-11-01 10:34:19][sql] CONNECT:[ UseTime:0.001384s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-11-01 10:34:19][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.025506s ]
+[2020-11-01 10:34:19][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.005012s ]
+[2020-11-01 10:34:19][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.001693s ]
+[2020-11-02 14:29:15][sql] CONNECT:[ UseTime:0.000465s ] mysql:host=127.0.0.1;port=3306;dbname=imessage;charset=utf8mb4
+[2020-11-02 14:29:15][sql] SHOW FULL COLUMNS FROM `phone_numbers` [ RunTime:0.004406s ]
+[2020-11-02 14:29:15][sql] SELECT COUNT(*) AS think_count FROM `phone_numbers` [ RunTime:0.000996s ]
+[2020-11-02 14:29:15][sql] SELECT * FROM `phone_numbers` LIMIT 0,20 [ RunTime:0.001051s ]

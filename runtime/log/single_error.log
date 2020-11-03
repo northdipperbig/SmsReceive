@@ -1,0 +1,9 @@
+[2020-11-02 21:05:50][error] SQLSTATE[HY000] [2002] Connection refused
+[2020-11-02 21:08:37][error] SQLSTATE[HY000] [2002] Connection refused
+[2020-11-02 21:08:54][error] SQLSTATE[HY000] [2002] Connection refused
+[2020-11-02 21:11:07][error] SQLSTATE[HY000] [2002] Connection refused
+[2020-11-02 21:11:16][error] SQLSTATE[HY000] [2002] Connection refused
+[2020-11-02 21:11:39][error] SQLSTATE[HY000] [2002] Connection refused
+[2020-11-02 21:11:53][error] SQLSTATE[HY000] [2002] Connection refused
+[2020-11-02 21:12:11][error] SQLSTATE[HY000] [2002] Connection refused
+[2020-11-02 21:12:11][error] [10501]SQLSTATE[HY000] [2002] Connection refused[/home/ChineseMan/ThinkAdmin/vendor/topthink/think-orm/src/db/PDOConnection.php:768]

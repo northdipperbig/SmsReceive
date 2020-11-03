@@ -1,0 +1,84 @@
+{extend name="../../admin/view/main"}
+
+{block name="button"}
+<div class="color-red">过滤手机第一次运行脚本时,会自动进行注册添加</div>
+{/block}
+
+{block name="content"}
+<div class="think-box-shadow table-block">
+    <table class="layui-table margin-top-10" lay-skin="line">
+        {notempty name='list'}
+        <thead>
+        <tr>
+            <th class='list-table-check-td think-checkbox'>
+                <label><input data-auto-none data-check-target='.list-check-box' type='checkbox'></label>
+            </th>
+            <th class='text-left nowrap'>手机设备号</th>
+            <th class='text-left nowrap'>状态</th>
+            <th class='text-left nowrap'>授权状态</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        {foreach $list as $key=>$vo}
+        <tr>
+            <td class='list-table-check-td think-checkbox'>
+                <label><input class="list-check-box" value='{$vo.id}' type='checkbox'></label>
+            </td>
+            <td class="text-left nowrap">
+                <span class="font-w7">{$vo.deviceid|default='-'}</span>
+            </td>
+            <td class='text-left nowrap'>
+                <!--{if $vo.states eq 0}-->
+                    <p class="color-red">禁用</p>
+                <!--{elseif $vo.states eq 1}-->
+                    <p class="color-green">启用</p>
+                <!--{/if}-->
+            </td>
+            <td class='text-left nowrap'>
+                <!--{if $vo.authorization eq 0}-->
+                    <p class="color-red">未授权</p>
+                <!--{elseif $vo.authorization eq 1}-->
+                    <p class="color-green">已授权</p>
+                <!--{/if}-->
+            </td>
+            <td class='text-left nowrap'>
+                <!--{if auth("enable") and $vo.states eq 0 and $vo.authorization eq 1}-->
+                <a class="layui-btn layui-btn-xs" data-action="{:url('enable')}" data-value="id#{$vo.id}" data-csrf="{:systoken('enable')}">启 用</a>
+                <!--{elseif auth("enable") and $vo.states eq 1 and $vo.authorization eq 1}-->
+                <a class="layui-btn layui-btn-xs layui-btn-warm" data-action="{:url('enable')}" data-value="id#{$vo.id}" data-csrf="{:systoken('enable')}">禁 用</a>
+                <!--{/if}-->
+                <!--{if auth("authorization") and $vo.authorization eq 0}-->
+                <a class="layui-btn layui-btn-xs" data-action="{:url('grant')}" data-value="id#{$vo.id}" data-csrf="{:systoken('grant')}">授 权</a>
+                <!--{elseif auth("authorization") and $vo.authorization eq 1}-->
+                <a class="layui-btn layui-btn-xs layui-btn-warm" data-action="{:url('grant')}" data-value="id#{$vo.id}" data-csrf="{:systoken('grant')}">取消授权</a>
+                <!--{/if}-->
+                <!--{if auth("remove")}-->
+                <a class="layui-btn layui-btn-xs layui-btn-danger" data-confirm="确定要删除过滤手机吗？<br/>请确保手机上已经删除脚本" data-action="{:url('remove')}" data-value="id#{$vo.id}" data-csrf="{:systoken('remove')}">删 除</a>
+                <!--{/if}-->
+            </td>
+        </tr>
+        {/foreach}
+        </tbody>
+        {/notempty}
+    </table>
+    {empty name='list'}<span class="notdata">您还没有任何过滤手机</span>{else}{$pagehtml|raw|default=''}{/empty}
+</div>
+{/block}
+
+{block name='script'}
+<script>
+    (function (layers) {
+        $('body').off('click', '[data-tips-desc]').on('click', '[data-tips-desc]', function () {
+            return layers.push(layer.tips($(this).find('textarea').html(), this, {tips: 3, time: 0, maxWidth: 500})), false;
+        }).off('click', '.layui-body').on('click', '.layui-body', function () {
+            layers.forEach(function (value, index) {
+                layer.close(value), delete layers[index];
+            });
+        });
+        $(window).on('hashchange', function () {
+            $('.layui-body').trigger('click');
+        });
+    })([]);
+</script>
+{/block}

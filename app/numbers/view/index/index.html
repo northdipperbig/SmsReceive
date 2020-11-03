@@ -1,0 +1,59 @@
+{extend name="../../admin/view/main"}
+
+{block name="button"}
+<!--{if auth("add")}-->
+<button data-modal='{:url("import")}' data-title="导入号码" class='layui-btn layui-btn-sm layui-btn-primary'>导入号码</button>
+<!--{/if}-->
+<!--{if auth("remove")}-->
+<button data-action='{:url("remove")}' data-csrf="{:systoken('remove')}" data-confirm="确定要删除号码吗？<br/>请做好数据备份,删除后将无法找回." data-rule="id#{key}" class='layui-btn layui-btn-sm layui-btn-danger'>删除号码</button>
+<!--{/if}-->
+<!--{if auth("remove")}-->
+<button data-modal='{:url("clearall")}' data-csrf="{:systoken('clearall')}" data-confirm="确定要清空全部号码吗？<br/>请做好数据备份,清空后将无法找回." class='layui-btn layui-btn-sm layui-btn-danger'>清空全部号码</button>
+<!--{/if}-->
+{/block}
+
+{block name="content"}
+<div class="think-box-shadow table-block">
+    <table class="layui-table margin-top-10" lay-skin="line">
+        {notempty name='list'}
+        <thead>
+        <tr>
+            <th class='list-table-check-td think-checkbox'>
+                <label><input data-auto-none data-check-target='.list-check-box' type='checkbox'></label>
+            </th>
+            <th class='text-left nowrap'>手机号码</th>
+            <th class='text-left nowrap'>状态</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        {foreach $list as $key=>$vo}
+        <tr>
+            <td class='list-table-check-td think-checkbox'>
+                <label><input class="list-check-box" value='{$vo.id}' type='checkbox'></label>
+            </td>
+            <td class="text-left nowrap">
+                <span class="font-w7">{$vo.phone_number|default='-'}</span>
+            </td>
+            <td class='text-left nowrap'>
+                <!--{if $vo.states eq 0}-->
+                    <p class="color-red">未筛选</p>
+                <!--{elseif $vo.states eq 1}-->
+                    <p class="color-green">开通Imessage</p>
+                <!--{elseif $vo.states eq 2}-->
+                    <p class="color-green">未开通Imessage</p>
+                <!--{/if}-->
+            </td>
+            <td class='text-left nowrap'>
+                <!--{if auth("remove")}-->
+                <a class="layui-btn layui-btn-xs layui-btn-danger" data-confirm="确定要删除号码吗？" data-action="{:url('remove')}" data-value="id#{$vo.id}" data-csrf="{:systoken('remove')}">删 除</a>
+                <!--{/if}-->
+            </td>
+        </tr>
+        {/foreach}
+        </tbody>
+        {/notempty}
+    </table>
+    {empty name='list'}<span class="notdata">哦噢!!! 没有手机号</span>{else}{$pagehtml|raw|default=''}{/empty}
+</div>
+{/block}
