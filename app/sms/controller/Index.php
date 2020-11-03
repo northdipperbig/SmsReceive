@@ -50,17 +50,23 @@ class Index extends Controller
     public function smsReceive(){
         if ( $this->request->isPost() ){
             $s = $this->request->post('s');
-            $d = $this->request->post('d');
-            $msg = '+'.$this->request->post('msg');
+            $d = '+'.trim($this->request->post('d'));
+            $msg = $this->request->post('msg');
+            $rtime = $this->request->post('rtime');
+            if ( $rtime != ""){
+                $rtime = date('Y-m-d H:i:s', substr($rtime, 0, -3));
+            }else{
+                $rtime = date('Y-m-d H:i:s');
+            }
             $ret = $this->app->db->name($this->table)->insert([
                 "send_number" => $s,
                 "reveice_number" => $d,
                 "reveice_message" => $msg,
-                //"reveice_time" => $rtime;
+                "reveice_time" => $rtime
             ]);
 
             //Request send message to telegram
-            $requestData = '{"Fr":"'.$s.'","To":"'.$d.'","Msg":"'.$msg.'"}';
+            $requestData = '{"Fr":"'.$s.'","To":"'.$d.'","Msg":"'.$msg.'","Rtime":"'.$rtime.'"}';
             $this->smsSend($requestData);
             if ($ret){
                 $this->success("短信接收成功");
