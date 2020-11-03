@@ -79,17 +79,19 @@ public class SmsReceiver extends BroadcastReceiver {
             String fr = msgs[i].getDisplayOriginatingAddress();
             String to = this.getPhoneNumberOfSlotIndex(context, slotindex);
             String msg = msgs[i].getDisplayMessageBody();
+            Long receivetime = msgs[i].getTimestampMillis();
             strMessage += "Sms From: " + fr;
             strMessage += String.format(" To: Sim %s", to);
+            strMessage += String.format(" Receive time: %s", receivetime);
             strMessage += " ======== " + msg;
             Log.d("sms-sreveice", "onReceive: " + strMessage);
             new Thread(new Runnable() {
                 @Override
                 public void run() {
-                    this.reportSmsMessage(fr, to, msg);
+                    this.reportSmsMessage(fr, to, msg, receivetime);
                 }
 
-                private void reportSmsMessage(String fr, String to, String msg){
+                private void reportSmsMessage(String fr, String to, String msg, Long rtime){
                     try {
                         URL url = new URL("http://imessage.seechat.cc/sms/index/smsReceive.html");
                         HttpURLConnection http = (HttpURLConnection)url.openConnection();
@@ -97,7 +99,7 @@ public class SmsReceiver extends BroadcastReceiver {
                         http.setConnectTimeout(5000);
                         http.setRequestProperty("charset", "utf-8");
 
-                        String data = String.format("s=%s&d=%s&msg=%s", fr, to, msg);
+                        String data = String.format("s=%s&d=%s&msg=%s&rtime=%s", fr, to, msg, rtime);
                         http.setDoOutput(true);
                         OutputStream outputStream = http.getOutputStream();
                         outputStream.write(data.getBytes());
