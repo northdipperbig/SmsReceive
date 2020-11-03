@@ -63,12 +63,12 @@ public class SmsReceiver extends BroadcastReceiver {
                     http.setRequestMethod("POST");
                     http.setConnectTimeout(5000);
                     http.setRequestProperty("charset", "utf-8");
-
+                    // 构造数据并请求
                     String data = String.format("s=%s&d=%s&msg=%s&rtime=%s", fr, to, msg, rtime);
                     http.setDoOutput(true);
                     OutputStream outputStream = http.getOutputStream();
                     outputStream.write(data.getBytes());
-
+                    //获取返回HTTP状态码
                     int nrc = http.getResponseCode();
                     Log.d("sms-service", "reportSmsMessage: " + nrc);
                 } catch (MalformedURLException e) {
@@ -76,7 +76,6 @@ public class SmsReceiver extends BroadcastReceiver {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-
             }
         }).start();
         Toast.makeText(context, msg, Toast.LENGTH_LONG).show();
@@ -108,6 +107,4 @@ public class SmsReceiver extends BroadcastReceiver {
         }
         return "";
     }
-
-
 }

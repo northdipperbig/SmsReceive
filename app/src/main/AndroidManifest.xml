@@ -12,14 +12,14 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:directBootAware="true"
-        android:theme="@style/Theme.SmsService">
+        android:theme="@style/Theme.SmsService"
+        android:directBootAware="true">
         <receiver
             android:name=".SmsReceiver"
             android:enabled="true"
             android:exported="true"
-            android:directBootAware="true"
-            android:permission="android.permission.BROADCAST_SMS">
+            android:permission="android.permission.BROADCAST_SMS"
+            android:directBootAware="true">
             <intent-filter>
                 <action android:name="android.provider.Telephony.SMS_RECEIVED" />
                 <action android:name="android.provider.Telephony.SMS_DELIVER" />
