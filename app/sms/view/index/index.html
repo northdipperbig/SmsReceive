@@ -20,7 +20,7 @@
             </th>
             <th class='text-left nowrap'>发送号码</th>
             <th class='text-left nowrap'>接收号码</th>
-            <th class='text-left nowrap'>短信内容</th>
+            <th class='text-left nowrap'>短信内容    (<i title="鼠标悬停提示完整内容" class="layui-icon layui-icon-help color-blue font-s12"></i>)</th>
             <th class='text-left nowrap'>接收时间</th>
             <th></th>
         </tr>
@@ -38,7 +38,11 @@
                 <span class="font-w7">{$vo.reveice_number|default='-'}</span>
             </td>
             <td class="text-left nowrap">
-                <span class="font-w7">{$vo.reveice_message|default='-'}</span>
+                {if condition="mb_strlen($vo.reveice_message) >= 50"}
+                <span class="font-w7" title="{$vo.reveice_message|default='-'}">{$vo.reveice_message|mb_substr=0,50|default='-'}...</span>
+                {else}
+                <span class="font-w7" title="{$vo.reveice_message|default='-'}">{$vo.reveice_message|default='-'}</span>
+                {/if}
             </td>
             <td class="text-left nowrap">
                 <span class="font-w7">{$vo.reveice_time|default='-'}</span>
